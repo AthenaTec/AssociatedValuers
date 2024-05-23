@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.1.1">
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/layText` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="        android:layout_below=&quot;@+id/layText&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\res\layout\dia_loading.xml"
+            line="13"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/rlTopButton` is not a sibling in the same `RelativeLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="                        android:layout_below=&quot;@+id/rlTopButton&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\res\layout-large\others.xml"
+            line="2375"
+            column="25"/>
+    </issue>
+
+</issues>

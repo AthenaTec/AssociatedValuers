@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AssociatedValues.iml" filepath="$PROJECT_DIR$/.idea/modules/AssociatedValues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AssociatedValues.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
