@@ -370,9 +370,9 @@ com/google/gson/annotations/JsonAdapter.class
 com/google/gson/annotations/SerializedName.class
 com/google/gson/annotations/Since.class
 com/google/gson/annotations/Until.class
-com/realappraiser/gharvalue/MyApplication.class
-com/realappraiser/gharvalue/utils/ConnectionReceiver$ConnectionReceiverListener.class
-com/realappraiser/gharvalue/utils/ConnectionReceiver.class
+com/realappraiser/associatedvaluers/MyApplication.class
+com/realappraiser/associatedvaluers/utils/ConnectionReceiver$ConnectionReceiverListener.class
+com/realappraiser/associatedvaluers/utils/ConnectionReceiver.class
 com/rengwuxian/materialedittext/MaterialAutoCompleteTextView$FloatingLabelType.class
 com/rengwuxian/materialedittext/MaterialEditText$FloatingLabelType.class
 com/rengwuxian/materialedittext/MaterialMultiAutoCompleteTextView$FloatingLabelType.class

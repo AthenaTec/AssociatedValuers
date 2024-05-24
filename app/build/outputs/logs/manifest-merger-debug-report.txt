@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:20:1-40:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\962aeb2d10fb80815954621bad65ed78\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\93ff46d6c44ae75a48d11143cdb51e88\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -21,7 +21,7 @@ MERGED from [com.github.barteksc:android-pdf-viewer:3.0.0-beta.4] C:\Users\Sabes
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\ad50cda20c95b36eaf8c95e416834513\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d7f39014b74fd63f7726c1f6ab5f97de\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\ced9495d6d8626e80fa144883cb08cd9\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\acf944da104a7b3bc7a5466de4d38f87\jetified-play-services-places-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d649c7a2581a4381e394f6a483ebdf88\jetified-play-services-places-15.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\6b14647c1302dded0442daf3f5f83c69\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\fcf596c7e860f1af6145204aa15f46d6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
 MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\147f39bcba914735d1cd5aec3ab50935\jetified-silicompressor-2.2.4\AndroidManifest.xml:2:1-29:12
@@ -98,47 +98,47 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sabesh\Documents
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\b623550bb10ad402fca448b1405d78eb\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\65178875b73a8b88b8f304a989d7a889\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\e58ce33eb76a85ad1512976e3e499afa\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
 	package
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:4:5-42
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:4:5-50
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:1-129:12
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:1-129:12
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:6:5-83
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:6:5-83
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:6:22-80
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:6:22-80
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:7:5-81
 MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\147f39bcba914735d1cd5aec3ab50935\jetified-silicompressor-2.2.4\AndroidManifest.xml:12:5-81
 MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\147f39bcba914735d1cd5aec3ab50935\jetified-silicompressor-2.2.4\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:8:5-80
 MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\147f39bcba914735d1cd5aec3ab50935\jetified-silicompressor-2.2.4\AndroidManifest.xml:11:5-80
 MERGED from [com.iceteck.silicompressorr:silicompressor:2.2.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\147f39bcba914735d1cd5aec3ab50935\jetified-silicompressor-2.2.4\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:8:22-77
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:9:5-98
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:9:5-98
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:9:22-95
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:9:22-95
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\fcf596c7e860f1af6145204aa15f46d6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\fcf596c7e860f1af6145204aa15f46d6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 MERGED from [androidx.work:work-runtime:2.3.3] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\cb20ac0b72a9d7eb58324a045446cd7f\work-runtime-2.3.3\AndroidManifest.xml:26:5-79
@@ -160,9 +160,9 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\06c73e9ea516c6670cae6b3471b0ba66\jetified-transport-runtime-2.2.5\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\06c73e9ea516c6670cae6b3471b0ba66\jetified-transport-runtime-2.2.5\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:29:5-67
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:29:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\b7dd6a7bd74c475b7f2b28ff3b120677\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:10:5-67
@@ -184,19 +184,19 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\646538451f9b2a83ff33c89603ba907b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\646538451f9b2a83ff33c89603ba907b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:12:5-76
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:12:5-76
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:30:5-76
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:30:5-76
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:12:22-73
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:12:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:13:5-75
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:13:5-75
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:13:22-72
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:13:22-72
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:14:5-68
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:14:5-68
 MERGED from [androidx.work:work-runtime:2.3.3] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\cb20ac0b72a9d7eb58324a045446cd7f\work-runtime-2.3.3\AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.3.3] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\cb20ac0b72a9d7eb58324a045446cd7f\work-runtime-2.3.3\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\b51f023d5c701d94be9cc59069a4482a\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:24:5-68
@@ -208,37 +208,37 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\914f242be64388f8e2f36740d876bed7\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\914f242be64388f8e2f36740d876bed7\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:14:22-65
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:14:22-65
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:15:5-65
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:15:22-62
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:15:22-62
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:16:5-79
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:17:5-79
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:17:22-76
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:18:22-78
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:21:5-23:35
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:21:5-23:35
 	android:required
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:23:9-32
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:23:9-32
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:22:9-47
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:22:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:24:5-26:36
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:26:9-33
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:25:9-57
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:25:9-57
 application
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:28:5-127:19
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:28:5-127:19
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:32:5-38:19
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:32:5-38:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\93ff46d6c44ae75a48d11143cdb51e88\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -253,8 +253,8 @@ MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Sabesh\Documents\Ath
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\49c3521fa8ad5d59bd4dda435aa2d1ef\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\b7dd6a7bd74c475b7f2b28ff3b120677\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\b7dd6a7bd74c475b7f2b28ff3b120677\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\acf944da104a7b3bc7a5466de4d38f87\jetified-play-services-places-15.0.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\acf944da104a7b3bc7a5466de4d38f87\jetified-play-services-places-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d649c7a2581a4381e394f6a483ebdf88\jetified-play-services-places-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d649c7a2581a4381e394f6a483ebdf88\jetified-play-services-places-15.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\6b14647c1302dded0442daf3f5f83c69\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\6b14647c1302dded0442daf3f5f83c69\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\fcf596c7e860f1af6145204aa15f46d6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
@@ -320,186 +320,186 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\de254bab32f16fa7c11609c824615e54\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\de254bab32f16fa7c11609c824615e54\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:40:9-52
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:40:9-52
 	tools:ignore
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:41:9-48
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:41:9-48
 	android:largeHeap
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:33:9-33
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:33:9-33
 	android:icon
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:31:9-45
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:31:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\45c82bcad139792592d4266af7a09ff2\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:37:9-35
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:32:9-41
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:32:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:30:9-44
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:30:9-44
 	android:isolatedProcess
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:36:9-39
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:36:9-39
 	tools:targetApi
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:42:9-28
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:42:9-28
 	android:allowBackup
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:35:9-36
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:35:9-36
 		REJECTED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\df549d9d28744d6d67d0c34d30668e37\jetified-library-0.3.5\AndroidManifest.xml:12:9-35
 		REJECTED from [com.iceteck.silicompressorr:silicompressor:2.2.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\147f39bcba914735d1cd5aec3ab50935\jetified-silicompressor-2.2.4\AndroidManifest.xml:15:9-35
 		REJECTED from [com.victor:lib:1.0.4] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\865db35fac9ea25d710aa3a3075f984b\jetified-lib-1.0.4\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:39:9-40
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:39:9-40
 	tools:replace
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:34:9-44
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:34:9-44
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:38:9-44
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:38:9-44
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:29:9-38
-activity#com.realappraiser.gharvalue.activities.SplashActivity
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:43:9-52:20
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:29:9-38
+activity#com.realappraiser.associatedvaluers.activities.SplashActivity
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:43:9-52:20
 	android:screenOrientation
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:46:13-49
 	android:configChanges
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:45:13-74
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:45:13-74
 	android:theme
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:47:13-69
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:47:13-69
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:44:13-54
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:44:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:48:13-51:29
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:48:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:49:17-69
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:49:25-66
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:50:17-77
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:50:27-74
-activity#com.realappraiser.gharvalue.activities.LoginActivity
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:53:9-56:52
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:50:27-74
+activity#com.realappraiser.associatedvaluers.activities.LoginActivity
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:53:9-56:52
 	android:screenOrientation
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:56:13-49
 	android:configChanges
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:55:13-74
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:55:13-74
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:54:13-53
-activity#com.realappraiser.gharvalue.activities.HomeActivity
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:57:9-60:52
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:54:13-53
+activity#com.realappraiser.associatedvaluers.activities.HomeActivity
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:57:9-60:52
 	android:screenOrientation
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:60:13-49
 	android:configChanges
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:59:13-74
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:59:13-74
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:58:13-52
-activity#com.realappraiser.gharvalue.activities.PdfViewer
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:61:9-64:52
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:58:13-52
+activity#com.realappraiser.associatedvaluers.activities.PdfViewer
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:61:9-64:52
 	android:screenOrientation
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:64:13-49
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:64:13-49
 	android:configChanges
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:63:13-74
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:63:13-74
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:62:13-49
-activity#com.realappraiser.gharvalue.activities.PhotoLatLngTab
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:65:9-69:63
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:62:13-49
+activity#com.realappraiser.associatedvaluers.activities.PhotoLatLngTab
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:65:9-69:63
 	android:screenOrientation
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:68:13-49
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:68:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:69:13-60
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:69:13-60
 	android:configChanges
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:67:13-74
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:67:13-74
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:66:13-54
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:66:13-54
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:71:9-73:69
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:71:9-73:69
 MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\174d63bfb184b3e11f23fc47b6ca560b\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.2.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\174d63bfb184b3e11f23fc47b6ca560b\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:73:13-66
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:73:13-66
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:72:13-58
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:72:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:74:9-76:55
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:74:9-76:55
 	android:value
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:76:13-52
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:76:13-52
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:75:13-58
-activity#com.realappraiser.gharvalue.activities.ReportActivity
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:78:9-63
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:75:13-58
+activity#com.realappraiser.associatedvaluers.activities.ReportActivity
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:78:9-63
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:78:19-60
-activity#com.realappraiser.gharvalue.activities.Testing
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:79:9-81:20
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:78:19-60
+activity#com.realappraiser.associatedvaluers.activities.Testing
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:79:9-81:20
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:79:19-53
-activity#com.realappraiser.gharvalue.activities.MultiPhotoSelectActivity
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:82:9-73
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:79:19-53
+activity#com.realappraiser.associatedvaluers.activities.MultiPhotoSelectActivity
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:82:9-73
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:82:19-70
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:82:19-70
 meta-data#firebase_crashlytics_collection_enabled
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:88:9-90:37
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:88:9-90:37
 	android:value
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:90:13-34
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:90:13-34
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:89:13-67
-receiver#com.realappraiser.gharvalue.utils.ConnectionReceiver
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:92:9-99:20
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:89:13-67
+receiver#com.realappraiser.associatedvaluers.utils.ConnectionReceiver
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:92:9-99:20
 	android:enabled
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:94:13-35
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:94:13-35
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:93:13-53
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:93:13-53
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:95:13-98:29
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:95:13-98:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:96:17-79
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:96:17-79
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:96:25-76
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:96:25-76
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:97:17-78
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:97:17-78
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:97:25-75
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:97:25-75
 provider#androidx.core.content.FileProvider
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:100:9-108:20
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:100:9-108:20
 	android:grantUriPermissions
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:104:13-47
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:104:13-47
 	android:authorities
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:103:13-75
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:103:13-83
 	android:exported
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:102:13-37
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:102:13-37
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:101:13-62
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:101:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:105:13-107:54
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:105:13-107:54
 	android:resource
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:107:17-51
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:107:17-51
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:106:17-67
-service#com.realappraiser.gharvalue.worker.GeoUpdate
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:110:9-112:39
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:106:17-67
+service#com.realappraiser.associatedvaluers.worker.GeoUpdate
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:110:9-112:39
 	android:exported
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:112:13-37
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:112:13-37
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:111:13-72
-service#com.realappraiser.gharvalue.worker.LocationUpdatesIntentService
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:113:9-115:39
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:111:13-80
+service#com.realappraiser.associatedvaluers.worker.LocationUpdatesIntentService
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:113:9-115:39
 	android:exported
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:115:13-37
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:115:13-37
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:114:13-91
-receiver#com.realappraiser.gharvalue.worker.LocationUpdatesBroadcastReceiver
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:117:9-125:20
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:114:13-99
+receiver#com.realappraiser.associatedvaluers.worker.LocationUpdatesBroadcastReceiver
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:117:9-125:20
 	android:exported
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:120:13-36
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:120:13-36
 	android:permission
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:119:13-38
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:119:13-38
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:118:13-95
-intent-filter#action:name:com.realappraiser.gharvalue.worker.                 locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:121:13-124:29
-action#com.realappraiser.gharvalue.worker.                 locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES
-ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:122:17-123:104
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:118:13-103
+intent-filter#action:name:com.realappraiser.associatedvaluers.worker.                 locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:121:13-124:29
+action#com.realappraiser.associatedvaluers.worker.                 locationupdatespendingintent.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES
+ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:122:17-123:104
 	android:name
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml:122:17-123:104
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml:122:17-123:104
 uses-sdk
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:25:5-27:41
 MERGED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:25:5-27:41
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\962aeb2d10fb80815954621bad65ed78\multidex-2.0.1\AndroidManifest.xml:20:5-43
@@ -534,8 +534,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sabesh\Documents
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d7f39014b74fd63f7726c1f6ab5f97de\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\ced9495d6d8626e80fa144883cb08cd9\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\ced9495d6d8626e80fa144883cb08cd9\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\acf944da104a7b3bc7a5466de4d38f87\jetified-play-services-places-15.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\acf944da104a7b3bc7a5466de4d38f87\jetified-play-services-places-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d649c7a2581a4381e394f6a483ebdf88\jetified-play-services-places-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\d649c7a2581a4381e394f6a483ebdf88\jetified-play-services-places-15.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\6b14647c1302dded0442daf3f5f83c69\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\6b14647c1302dded0442daf3f5f83c69\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\fcf596c7e860f1af6145204aa15f46d6\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
@@ -688,16 +688,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\65178875b73a8b88b8f304a989d7a889\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\e58ce33eb76a85ad1512976e3e499afa\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\e58ce33eb76a85ad1512976e3e499afa\print-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Sabesh\Documents\Athena Project\RealAppraiserKrishiti\Krishiti-Realappraiser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sabesh\Documents\Athena Project\AssociatedValues\app\src\main\AndroidManifest.xml
 provider#com.amitshekhar.DebugDBInitProvider
 ADDED from [com.amitshekhar.android:debug-db:1.0.1] C:\Users\Sabesh\Documents\Athena Project\mapprealappraiser\app\caches\transforms-2\files-2.1\8d8652689ee421a5f00148dc598034a7\jetified-debug-db-1.0.1\AndroidManifest.xml:33:9-37:40
 	android:enabled

@@ -71,7 +71,7 @@
 
     <!-- View pager to swipe views -->
 
-    <com.realappraiser.gharvalue.adapter.CustomViewPager
+    <com.realappraiser.associatedvaluers.adapter.CustomViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

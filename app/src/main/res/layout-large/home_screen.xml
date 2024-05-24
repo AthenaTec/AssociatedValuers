@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/slightgrey2"
     android:orientation="vertical"
-    tools:context="com.realappraiser.gharvalue.activities.HomeActivity"
+    tools:context="com.realappraiser.associatedvaluers.activities.HomeActivity"
     tools:ignore="Overdraw">
 
     <androidx.appcompat.widget.Toolbar

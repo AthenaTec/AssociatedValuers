@@ -4,14 +4,14 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.realappraiser.gharvalue",
+  "applicationId": "com.realappraiser.associatedvaluers",
   "variantName": "processDebugResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 5,
-      "versionName": "2.0.4",
+      "versionCode": 1,
+      "versionName": "1.0.0",
       "outputFile": "resources-debug.ap_"
     }
   ]

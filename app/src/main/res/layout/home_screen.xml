@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/slightgrey2"
     android:orientation="vertical"
-    tools:context="com.realappraiser.gharvalue.activities.HomeActivity"
+    tools:context="com.realappraiser.associatedvaluers.activities.HomeActivity"
     tools:ignore="Overdraw">
 
     <androidx.appcompat.widget.Toolbar
@@ -195,7 +195,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_centerInParent="true"
                         android:layout_marginRight="@dimen/height_50"
-                        app:loading_color="@color/colorPrimary"
+                        app:loading_color="@color/colorPrimaryDark"
                         app:loading_width="1dp"
                         tools:ignore="InconsistentLayout" />
 
@@ -239,7 +239,7 @@
             android:layout_marginStart="@dimen/height_12"
             android:layout_marginTop="-1dp"
             android:layout_marginEnd="@dimen/height_12"
-            android:background="@color/colorPrimary" />
+            android:background="@color/colorPrimaryDark" />
     </LinearLayout>
 
 

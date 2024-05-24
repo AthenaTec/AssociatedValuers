@@ -19,13 +19,13 @@ repositories {
 
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
     defaultConfig {
-        applicationId "com.realappraiser.gharvalue"
+        applicationId "com.realappraiser.associatedvaluers"
         minSdkVersion 19
-        targetSdkVersion 30
-        versionCode 5
-        versionName "2.0.4"
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.0"
         resConfigs "en"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
