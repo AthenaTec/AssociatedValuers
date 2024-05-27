@@ -308,7 +308,7 @@
                 android:layout_marginBottom="@dimen/height_60"
                 android:layout_marginTop="@dimen/height_30"
                 android:background="@drawable/buttonshape"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/colorPrimary"
                 android:paddingBottom="@dimen/height_4"
                 android:paddingLeft="@dimen/height_25"
                 android:paddingRight="@dimen/height_25"

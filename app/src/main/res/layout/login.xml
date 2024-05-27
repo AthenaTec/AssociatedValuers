@@ -9,19 +9,34 @@
     android:gravity="center"
     android:orientation="vertical">
 
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="40dp"
         android:orientation="vertical">
 
-    <ImageView
+   <!-- <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:src="@drawable/logo"
-        tools:ignore="ContentDescription" />
+        tools:ignore="ContentDescription" />-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Associated Valuers"
+            android:fontFamily="@font/regular"
+            android:textStyle="bold"
+            android:textSize="@dimen/_24sdp"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="ContentDescription"
+           />
 
     <TextView
         android:id="@+id/login"
@@ -33,7 +48,9 @@
         android:text="LOGIN"
         android:textColor="@color/Black"
         android:textSize="20sp"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:visibility="gone"
+        />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layout_email"
@@ -132,4 +149,7 @@
         android:textSize="14sp" />
 
     </LinearLayout>
+
+
+
 </LinearLayout>
