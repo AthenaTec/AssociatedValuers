@@ -19,11 +19,11 @@ repositories {
 
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.realappraiser.associatedvaluers"
         minSdkVersion 19
-        targetSdkVersion 33
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0.0"
         resConfigs "en"
