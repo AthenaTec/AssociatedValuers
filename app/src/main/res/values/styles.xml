@@ -146,7 +146,7 @@
 
     <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
         <item name="android:fontFamily">Ubuntu-Medium</item>
-        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
     </style>
 
     <style name="StyledTilEditText">
@@ -179,7 +179,7 @@
         <item name="android:paddingTop">@dimen/height_2</item>
         <item name="android:paddingLeft">@dimen/height_3</item>
         <item name="android:paddingRight">@dimen/height_15</item>
-        <item name="android:textColor">@color/font_text</item>
+        <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textSize">@dimen/_11sdp</item>
         <item name="android:imeOptions">actionNext|flagNoExtractUi</item>
         <item name="android:singleLine">true</item>

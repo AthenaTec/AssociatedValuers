@@ -1126,7 +1126,7 @@ public class FragmentValuationBuilding extends Fragment implements RatePopupupIn
         }
 
         // spinner - Measuremnet - GuidelineRateUnit
-        ArrayAdapter<Measurements> measurementsArrayAdapter_guild = new ArrayAdapter<Measurements>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().measurements_list_val_sqya) {
+        ArrayAdapter<Measurements> measurementsArrayAdapter_guild = new ArrayAdapter<Measurements>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list_val_sqya) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1139,7 +1139,7 @@ public class FragmentValuationBuilding extends Fragment implements RatePopupupIn
                 return v;
             }
         };
-        measurementsArrayAdapter_guild.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        measurementsArrayAdapter_guild.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_ft_meter.setAdapter(measurementsArrayAdapter_guild);
         spinner_ft_meter.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

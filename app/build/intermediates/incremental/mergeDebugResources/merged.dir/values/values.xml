@@ -255,6 +255,8 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="app_transparent_case_bg_color">#99007451</color>
+    <color name="app_transparent_color">#26007451</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -277,14 +279,14 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#00a1cc</color>
+    <color name="colorAccent">#007451</color>
     <color name="colorFuncBtnBackground">#5F6267</color>
     <color name="colorFuncBtnText">#fff</color>
     <color name="colorNumBtnBackground">#3C4043</color>
     <color name="colorNumBtnText">#fff</color>
-    <color name="colorPrimary">#04AA6D</color>
-    <color name="colorPrimaryDark">#04AA6D</color>
-    <color name="colorshadow" ns1:ignore="UnusedResources">#afff7a61</color>
+    <color name="colorPrimary">#007451</color>
+    <color name="colorPrimaryDark">#007451</color>
+    <color name="colorshadow" ns1:ignore="UnusedResources">#007451</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -386,7 +388,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="red_error">#FF0000</color>
+    <color name="red_error">#007451</color>
     <color name="ripple" ns1:ignore="UnusedResources">#d0d6dc</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -1599,7 +1601,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="about">ABOUT</string>
+    <string name="about">About</string>
     <string name="accept">ACCEPT</string>
     <string name="accept_status">13</string>
     <string name="actual_area">Actual Area</string>
@@ -1609,7 +1611,7 @@
     <string name="actual_usage" ns1:ignore="UnusedResources">Actual Usage</string>
     <string name="actualarea">Actual Area</string>
     <string name="actualusage">Actual Usage</string>
-    <string name="addimage">ADD IMAGE</string>
+    <string name="addimage">Add Image</string>
     <string name="additional_desc">Additional Description</string>
     <string name="additional_description">Additional Description</string>
     <string name="additional_remarks">Additional Remarks</string>
@@ -1622,7 +1624,7 @@
     <string name="alreadyexceeded">Maximum offline cases reached! </string>
     <string name="amenities">Amenities</string>
     <string name="amenitiesquality">Amenities Quality</string>
-    <string name="app_name">Real Appraiser</string>
+    <string name="app_name">Associated Valuers</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="applicant_name">Applicant Name</string>
     <string name="approved_floors">#Approved Floors(s)*</string>
@@ -1647,7 +1649,7 @@
     <string name="bathflooring">Bath Flooring</string>
     <string name="bedroom"># of Bedroom(s)</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
-    <string name="brokerdetails">BROKER DETAILS</string>
+    <string name="brokerdetails">Broker Details</string>
     <string name="brokername">Broker Name</string>
     <string name="brokernumber">Broker Contact Number</string>
     <string name="brokervalue">Proposed value range</string>
@@ -1683,7 +1685,7 @@
     <string name="chip_text">Chip text</string>
     <string name="class_head">Class</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
-    <string name="close">CLOSED</string>
+    <string name="close">Closed</string>
     <string name="close_new">Close</string>
     <string name="colony_name">Colony Name</string>
     <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
@@ -1724,7 +1726,7 @@
     <string name="copyright">Copyright</string>
     <string name="copyright1">All rights reserved</string>
     <string name="create">CREATE</string>
-    <string name="create_case">CREATE CASE</string>
+    <string name="create_case">Create Case</string>
     <string name="create_cases">Create Case</string>
     <string name="ctsno">CTS No</string>
     <string name="current_fair">*Current Fair Market Value:</string>
@@ -1848,8 +1850,8 @@
     <string name="general_stage" ns1:ignore="UnusedResources">Stage*</string>
     <string name="generl_info" ns1:ignore="UnusedResources">General Info:</string>
     <string name="generl_info_measu">General Info and Measurement:</string>
-    <string name="go_offline">GO OFFLINE</string>
-    <string name="gooffline">GO OFFLINE</string>
+    <string name="go_offline">Go Offline</string>
+    <string name="gooffline">Go Offline</string>
     <string name="google_api_key" translatable="false">AIzaSyD_mCTODqZ-K6uOWcmkNCkx3ePLrmzExJk</string>
     <string name="google_app_id" translatable="false">1:294867550901:android:78e94bb2b5e48f00</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD_mCTODqZ-K6uOWcmkNCkx3ePLrmzExJk</string>
@@ -1885,7 +1887,7 @@
     <string name="landvaluation">Land Valuation:</string>
     <string name="lat" ns1:ignore="UnusedResources">Lat</string>
     <string name="latitude">Latitude</string>
-    <string name="latlng">LAT/LONG</string>
+    <string name="latlng">Lat/Long</string>
     <string name="left">Left</string>
     <string name="life">Life</string>
     <string name="liftinbuilding">Lift In Building</string>
@@ -1973,14 +1975,14 @@
     <string name="of_passage"># of Passage(s)</string>
     <string name="of_terrace"># of Terrace(s)</string>
     <string name="of_wc"># of WC(s)</string>
-    <string name="offline">OFFLINE</string>
+    <string name="offline">Offline</string>
     <string name="offlinecase_head">Select Cases</string>
     <string name="offlinecaselimited">Select the offline cases are equal to </string>
     <string name="ok">OK</string>
     <string name="oncompletion">On completion with its amenities</string>
     <string name="one_photo">Kindly select one photo to proceed</string>
     <string name="only_12floor" ns1:ignore="Typos">Kindly generate upto 12 Floor(s)</string>
-    <string name="open">OPEN</string>
+    <string name="open">Open</string>
     <string name="otla">Otla</string>
     <string name="otla_a">Otla(A)</string>
     <string name="paint">Paint</string>
@@ -1994,7 +1996,7 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="pavingaroundbuilding">Paving Around Building</string>
-    <string name="pending">PENDING</string>
+    <string name="pending">Pending</string>
     <string name="per_area">Sanctioned Area</string>
     <string name="permissiblearea">Permissible Area</string>
     <string name="permission_rationale">"Storage permission is needed for fetching images from Gallery."</string>
@@ -2165,11 +2167,11 @@
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
-        
+        <!-- Used for the buttons -->
         <item name="colorAccent">@color/colorAccent</item>
-        
+        <!-- Used for the title and text -->
         <item name="android:textColorPrimary">@color/Activite</item>
-        
+        <!-- Used for the background -->
         <item name="android:background">@color/white</item>
     </style>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2184,7 +2186,7 @@
     <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
   </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -2198,15 +2200,17 @@
         <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
 
 
-        
+        <!--<item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsTranslucent">true</item>-->
 
 
     </style>
-    <style name="AppTheme.NoActionBar" ns1:ignore="UnusedResources" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.NoActionBar" ns1:ignore="UnusedResources">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        
-        
+        <!-- <item name="android:textColorPrimary">@color/white</item>-->
+        <!--cursur color-->
 
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="android:windowActionBarOverlay">true</item>
@@ -4136,11 +4140,11 @@
         <item name="fontFamily">@font/regular</item>
     </style>
     <style name="MySwitch" ns1:ignore="UnusedResources">
-        
+        <!-- active thumb & track color (30% transparency) -->
         <item name="colorControlActivated">@color/White</item>
-        
+        <!-- inactive thumb color -->
         <item name="colorSwitchThumbNormal">#bbbbbb</item>
-        
+        <!-- inactive track color (30% transparency) -->
         <item name="android:colorForeground">#ffffff</item>
     </style>
     <style name="MyTheme" ns1:ignore="UnusedResources" parent="android:Theme.Holo.Dialog">
@@ -4554,22 +4558,23 @@
     <style name="StyledTilText_multicheck">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/font_samll</item>
+        <item name="android:fontFamily">@font/regular</item>
         <item name="android:paddingTop">@dimen/height_2</item>
         <item name="android:paddingLeft">@dimen/height_3</item>
         <item name="android:paddingRight">@dimen/height_15</item>
-        <item name="android:textColor">@color/font_text</item>
-        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:imeOptions">actionNext|flagNoExtractUi</item>
         <item name="android:singleLine">true</item>
         <item name="android:background">@null</item>
     </style>
     <style name="SwitchTheme">
-        
+        <!-- Used for the bottom line when not selected / focused -->
         <item name="colorControlNormal">@color/Gray</item>
         <item name="colorControlHighlight">@color/colorPrimary</item>
         <item name="colorControlActivated">@color/colorPrimary</item>
         <item name="android:thickness">0dp</item>
-        
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
     </style>
     <style name="Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" parent="">
     <item name="cornerFamily">rounded</item>
@@ -5904,7 +5909,7 @@
     </style>
     <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
         <item name="android:fontFamily">Ubuntu-Medium</item>
-        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
     </style>
     <declare-styleable name="AVLoadingIndicatorView"><attr format="dimension" name="minWidth"/><attr format="dimension" name="maxWidth"/><attr format="dimension" name="minHeight"/><attr format="dimension" name="maxHeight"/><attr format="string" name="indicatorName"/><attr format="color" name="indicatorColor"/></declare-styleable>
     <declare-styleable name="ActionBar">

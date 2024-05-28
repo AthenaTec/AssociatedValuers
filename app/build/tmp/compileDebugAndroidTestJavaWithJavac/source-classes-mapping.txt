@@ -1,0 +1,2 @@
+com/realappraiser/associatedvaluers/test/BuildConfig.java
+ com.realappraiser.associatedvaluers.test.BuildConfig

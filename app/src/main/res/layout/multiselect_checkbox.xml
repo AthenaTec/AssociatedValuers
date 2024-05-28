@@ -20,7 +20,7 @@
             android:layout_marginTop="@dimen/control_padding"
             android:gravity="center"
             android:text="@string/document_boundary"
-            android:textColor="@color/font_heading"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/font_medium"
             android:textStyle="normal" />
 
@@ -58,7 +58,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/strokeshape_bg"
                 android:text="@string/cancel"
-                android:textColor="@color/Black"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/font_medium"
                 tools:ignore="ButtonStyle" />
 

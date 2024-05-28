@@ -15,7 +15,7 @@
         android:layout_marginLeft="@dimen/height_3"
         android:layout_marginTop="@dimen/height_3"
         android:text="@string/landvaluation"
-        android:textColor="@color/font_heading"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_samll"
         android:textStyle="normal" />
     <LinearLayout

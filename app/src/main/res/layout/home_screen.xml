@@ -309,7 +309,9 @@
             android:background="@color/slightgrey"
             android:gravity="center"
             android:orientation="horizontal"
-            android:weightSum="6">
+            android:weightSum="6"
+            android:visibility="gone"
+            >
 
             <TextView
                 android:id="@+id/caseid"

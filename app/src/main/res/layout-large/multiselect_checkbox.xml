@@ -20,7 +20,7 @@
             android:layout_marginTop="@dimen/control_padding"
             android:gravity="center"
             android:text="@string/document_boundary"
-            android:textColor="@color/font_heading"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/font_medium"
             android:textStyle="normal" />
 

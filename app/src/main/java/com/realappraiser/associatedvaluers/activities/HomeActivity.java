@@ -1756,23 +1756,23 @@ public class HomeActivity extends AppCompatActivity implements
         Button btnCancel = dialog.findViewById(R.id.btnCancel);
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this,
-                R.layout.row_spinner_item_, getResources().getStringArray(R.array.salution));
-        arrayAdapter.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, getResources().getStringArray(R.array.salution));
+        arrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spSalution.setAdapter(arrayAdapter);
 
         ArrayAdapter<CaseSelection.Data.CaseAdmin> arrayAdapter1 = new ArrayAdapter<>(this,
-                R.layout.row_spinner_item_, caseSelectionsCaseAdmin);
-        arrayAdapter1.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, caseSelectionsCaseAdmin);
+        arrayAdapter1.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spCaseAdmin.setAdapter(arrayAdapter1);
 
         ArrayAdapter<CaseSelection.Data.PropertyType> arrayAdapter2 = new ArrayAdapter<>(this,
-                R.layout.row_spinner_item_, caseSelectionsProperty);
-        arrayAdapter2.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, caseSelectionsProperty);
+        arrayAdapter2.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spPropertyType.setAdapter(arrayAdapter2);
 
         ArrayAdapter<CaseSelection.Data.ReportMaker> arrayAdapter3 = new ArrayAdapter<>(this,
-                R.layout.row_spinner_item_, caseSelectionsReportMaker);
-        arrayAdapter3.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, caseSelectionsReportMaker);
+        arrayAdapter3.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spReportMaker.setAdapter(arrayAdapter3);
 
         spPropertyType.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -1912,8 +1912,8 @@ public class HomeActivity extends AppCompatActivity implements
         caseSelectionsBankName.addAll(fromJson.getData());
 
         ArrayAdapter<BankSelection.Datum> arrayAdapter3 = new ArrayAdapter<>(this,
-                R.layout.row_spinner_item_, caseSelectionsBankName);
-        arrayAdapter3.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, caseSelectionsBankName);
+        arrayAdapter3.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spBankName.setAdapter(arrayAdapter3);
 
         general.hideloading();

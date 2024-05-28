@@ -15,7 +15,7 @@ import com.realappraiser.associatedvaluers.fragments.PhotoLatLong_ka;
 
 public class PhotoOthersTabAdapter extends FragmentStatePagerAdapter {
     @SuppressWarnings("CanBeFinal")
-    private String[] tabTitles = new String[]{"Photo/LatLng Details", "Other Details"};
+    private String[] tabTitles = new String[]{"Photo/LatLong Details", "Other Details"};
     boolean is_real_appraiser_jaipur = false;
 
     public PhotoOthersTabAdapter(FragmentManager supportFragmentManager,boolean is_real_appraiser_jaipur_) {

@@ -18,7 +18,7 @@
             android:layout_marginTop="@dimen/control_padding"
             android:paddingLeft="16dp"
             android:text="-"
-            android:textColor="@color/font_3"
+            android:textColor="@color/colorPrimary"
             android:textSize="22sp"
             android:textStyle="normal" />
 
@@ -98,7 +98,7 @@
                 android:paddingStart="@dimen/height_40"
                 android:paddingEnd="@dimen/height_40"
                 android:text="@string/cancel"
-                android:textColor="@color/Black"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/font_medium" />
         </LinearLayout>
 

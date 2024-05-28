@@ -348,7 +348,7 @@
         android:layout_gravity="left|center_vertical"
         android:layout_marginLeft="@dimen/height_3"
         android:text="@string/constructionvaluation"
-        android:textColor="@color/font_heading"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_samll"
         android:textStyle="normal"
         tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />

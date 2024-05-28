@@ -22,7 +22,7 @@
             android:layout_gravity="left|center_vertical"
             android:layout_marginLeft="@dimen/height_3"
             android:text="@string/land_measurement"
-            android:textColor="@color/font_heading"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/font_samll"
             android:textStyle="normal"
             tools:ignore="RtlHardcoded,SpUsage" />
@@ -188,7 +188,7 @@
         android:layout_marginLeft="@dimen/height_3"
         android:layout_marginTop="@dimen/height_2"
         android:text="@string/construction_details"
-        android:textColor="@color/font_heading"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_samll"
         android:textStyle="normal"
         tools:ignore="RtlHardcoded" />
@@ -432,7 +432,7 @@
             android:layout_marginLeft="@dimen/height_3"
             android:layout_marginTop="@dimen/height_8"
             android:text="@string/generl_info_measu"
-            android:textColor="@color/font_heading"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/font_samll"
             android:textStyle="normal"
             tools:ignore="RtlHardcoded" />
@@ -907,7 +907,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/height_3"
         android:text="@string/internal_composition"
-        android:textColor="@color/font_heading"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_samll"
         android:textStyle="normal"
         tools:ignore="RtlHardcoded" />

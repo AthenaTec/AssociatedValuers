@@ -886,6 +886,8 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color app_transparent_case_bg_color
+color app_transparent_color
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -2240,6 +2242,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable animation
+drawable asv_logo
+drawable asv_splash_screen
 drawable avd_hide_password
 drawable avd_show_password
 drawable border_grey
@@ -2262,6 +2266,7 @@ drawable buttonshape
 drawable buttonshape_grey
 drawable buttonshape_square
 drawable call
+drawable case_bg
 drawable check_box_selector
 drawable checked
 drawable close
@@ -2380,7 +2385,10 @@ drawable refresh
 drawable round
 drawable round_bg
 drawable spinner_down
+drawable spinner_drop_list_item
+drawable spinner_pop_up_dialog_bg
 drawable spinnernew
+drawable splash_background
 drawable splash_bg
 drawable splash_bg_land
 drawable strokeshape_bg
@@ -2470,6 +2478,7 @@ id all
 id always
 id amenitiesquality
 id assigned_date
+id assigned_txt
 id assigneddate
 id async
 id auto
@@ -2479,6 +2488,7 @@ id ball_one
 id ball_three
 id ball_two
 id bank
+id bank_txt
 id barrier
 id bathflooring
 id beginning
@@ -2585,11 +2595,13 @@ id closeViewLayout
 id close_bank
 id close_caseid
 id close_cut_image
+id close_id_txt
 id close_mobile
 id close_personname
 id closecutLay
 id closed_case
 id closed_date
+id closed_date_txt
 id closeddate
 id closerecyclerview
 id collapseActionView
@@ -2805,6 +2817,7 @@ id gone
 id gooffline_case
 id group_divider
 id groups
+id head
 id hideable
 id highlight
 id home
@@ -2987,6 +3000,7 @@ id linear_permissiblearea_row
 id linearlaycheck
 id listMode
 id list_item
+id listview_background_shape
 id llAddressInfo
 id llBrokerInfo
 id llPropertyInfo
@@ -3009,6 +3023,7 @@ id middle
 id mini
 id minus_proximity_1
 id minus_proximity_head
+id mobile_txt
 id mobileno
 id month_grid
 id month_navigation_bar
@@ -3043,6 +3058,7 @@ id multiselect_recyclerview
 id my_focuslayout
 id my_focuslayout_photo
 id name
+id name_txt
 id navigation_header_container
 id never
 id noBtn
@@ -3763,6 +3779,7 @@ layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_drop_list_item
 layout splash_activity
 layout support_simple_spinner_dropdown_item
 layout test_action_chip

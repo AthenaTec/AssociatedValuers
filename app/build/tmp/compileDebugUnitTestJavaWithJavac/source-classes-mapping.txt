@@ -1,2 +1,0 @@
-com/realappraiser/gharvalue/ExampleUnitTest.java
- com.realappraiser.associatedvaluers.ExampleUnitTest

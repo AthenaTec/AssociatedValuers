@@ -1799,9 +1799,9 @@ public class PhotoLatLong_ka extends Fragment implements View.OnClickListener, O
                 holder.txtvalue.setVisibility(View.GONE);
                 holder.imagedefaultlayout.setVisibility(View.VISIBLE);
                 if (position == 0)
-                    holder.addimage.setText("ADD CAMERA IMAGE");
+                    holder.addimage.setText("Add Camera Image");
                 if (position == 1)
-                    holder.addimage.setText("ADD GALLERY IMAGE");
+                    holder.addimage.setText("Add Gallery Image");
             } else {
                 holder.imagedefaultlayout.setVisibility(View.GONE);
                 if (GetPhoto_list.size() > 0) {

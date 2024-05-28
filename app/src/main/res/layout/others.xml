@@ -128,8 +128,8 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:letterSpacing="0.1"
-                                    android:text="@string/address"
-                                    android:textAllCaps="true"
+                                    android:text="Address"
+                                    android:textAllCaps="false"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/font_very_medium"
                                     tools:ignore="UnusedAttribute" />
@@ -456,7 +456,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="10dp"
-                                android:background="@null" />
+                                android:background="@null"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -499,7 +501,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="10dp"
-                                android:background="@null" />
+                                android:background="@null"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -531,7 +535,9 @@
                                 android:id="@+id/spinner_select_class"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@null" />
+                                android:background="@null"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -571,7 +577,9 @@
                                 android:id="@+id/spinner_select_tenure_ownership"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@null" />
+                                android:background="@null"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -603,7 +611,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="10dp"
-                                android:background="@null" />
+                                android:background="@null"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -719,7 +729,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@null"
-                                tools:ignore="InconsistentLayout" />
+                                tools:ignore="InconsistentLayout"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -733,7 +745,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/height_3"
                         android:text="@string/document_boundary"
-                        android:textColor="@color/font_heading"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/font_samll"
                         android:textStyle="normal"
                         tools:ignore="RtlHardcoded" />
@@ -829,7 +841,7 @@
                             android:layout_weight="1"
                             android:gravity="left"
                             android:text="@string/actual_boundary"
-                            android:textColor="@color/font_heading"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/font_samll"
                             android:textStyle="normal"
                             tools:ignore="RtlHardcoded" />
@@ -940,7 +952,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/height_3"
                             android:text="@string/document_dimension"
-                            android:textColor="@color/font_heading"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/font_samll"
                             android:textStyle="normal"
                             tools:ignore="RtlHardcoded" />
@@ -1036,7 +1048,7 @@
                                 android:layout_weight="1"
                                 android:gravity="left"
                                 android:text="@string/actual_dimension"
-                                android:textColor="@color/font_heading"
+                                android:textColor="@color/colorPrimary"
                                 android:textSize="@dimen/font_samll"
                                 android:textStyle="normal"
                                 tools:ignore="RtlHardcoded" />
@@ -1153,7 +1165,7 @@
                             android:layout_marginLeft="@dimen/height_3"
                             android:gravity="left"
                             android:text="@string/document_setback"
-                            android:textColor="@color/font_heading"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/font_samll"
                             android:textStyle="normal"
                             tools:ignore="RtlHardcoded" />
@@ -1249,7 +1261,7 @@
                                 android:layout_weight="1"
                                 android:gravity="left"
                                 android:text="@string/actual_setback"
-                                android:textColor="@color/font_heading"
+                                android:textColor="@color/colorPrimary"
                                 android:textSize="@dimen/font_samll"
                                 android:textStyle="normal"
                                 tools:ignore="RtlHardcoded" />
@@ -1358,7 +1370,7 @@
                         android:layout_marginLeft="@dimen/height_3"
                         android:gravity="left"
                         android:text="@string/proximity"
-                        android:textColor="@color/font_heading"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/font_samll"
                         android:textStyle="normal"
                         tools:ignore="RtlHardcoded" />
@@ -1567,7 +1579,7 @@
                                     android:layout_height="wrap_content"
                                     android:letterSpacing="0.1"
                                     android:text="@string/property_details"
-                                    android:textAllCaps="true"
+                                    android:textAllCaps="false"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/font_very_medium"
                                     tools:ignore="UnusedAttribute" />
@@ -1638,7 +1650,7 @@
                             android:layout_marginLeft="@dimen/height_3"
                             android:layout_marginTop="@dimen/height_15"
                             android:text="@string/interior"
-                            android:textColor="@color/font_heading"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/font_samll"
                             android:textStyle="normal"
                             tools:ignore="RtlHardcoded" />
@@ -1855,7 +1867,7 @@
                             android:layout_marginLeft="@dimen/height_3"
                             android:layout_marginTop="@dimen/height_3"
                             android:text="@string/exterior"
-                            android:textColor="@color/font_heading"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/font_samll"
                             android:textStyle="normal"
                             tools:ignore="RtlHardcoded" />
@@ -2248,7 +2260,7 @@
                                     android:layout_height="wrap_content"
                                     android:letterSpacing="0.1"
                                     android:text="@string/valuation_details"
-                                    android:textAllCaps="true"
+                                    android:textAllCaps="false"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/font_very_medium"
                                     android:textStyle="bold"
@@ -2357,7 +2369,7 @@
                                     android:layout_height="wrap_content"
                                     android:letterSpacing="0.1"
                                     android:text="@string/remarks"
-                                    android:textAllCaps="true"
+                                    android:textAllCaps="false"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/font_very_medium"
                                     tools:ignore="UnusedAttribute" />
@@ -2506,7 +2518,7 @@
                                     android:layout_height="wrap_content"
                                     android:letterSpacing="0.1"
                                     android:text="@string/brokerdetails"
-                                    android:textAllCaps="true"
+                                    android:textAllCaps="false"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/font_very_medium"
                                     tools:ignore="InconsistentLayout,UnusedAttribute" />
@@ -2679,7 +2691,7 @@
                                     android:layout_height="wrap_content"
                                     android:letterSpacing="0.1"
                                     android:text="@string/more_info"
-                                    android:textAllCaps="true"
+                                    android:textAllCaps="false"
                                     android:textColor="@color/white"
                                     android:textSize="@dimen/font_very_medium"
                                     tools:ignore="UnusedAttribute" />
@@ -3536,7 +3548,7 @@
                                 android:layout_weight="1"
                                 android:paddingLeft="@dimen/height_8"
                                 android:text="@string/pop"
-                                android:textColor="@color/font_heading"
+                                android:textColor="@color/colorPrimary"
                                 android:textSize="@dimen/font_samll"
                                 android:textStyle="normal"
                                 tools:ignore="RtlHardcoded" />
@@ -3590,7 +3602,7 @@
                                 android:layout_weight="1"
                                 android:paddingLeft="@dimen/height_8"
                                 android:text="@string/garden_exists"
-                                android:textColor="@color/font_heading"
+                                android:textColor="@color/colorPrimary"
                                 android:textSize="@dimen/font_samll"
                                 android:textStyle="normal"
                                 tools:ignore="RtlHardcoded" />
@@ -3654,7 +3666,7 @@
                                 android:layout_weight="1"
                                 android:paddingLeft="@dimen/height_8"
                                 android:text="@string/separatecompound"
-                                android:textColor="@color/font_heading"
+                                android:textColor="@color/colorPrimary"
                                 android:textSize="@dimen/font_samll"
                                 android:textStyle="normal"
                                 tools:ignore="RtlHardcoded" />

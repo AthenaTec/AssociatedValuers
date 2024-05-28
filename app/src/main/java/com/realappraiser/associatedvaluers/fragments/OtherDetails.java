@@ -1571,7 +1571,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
     private void spinnerValuesInitiate() {
         try {
-            ArrayAdapter<ApproachRoadCondition> adapterApproachRoadCondition = new ArrayAdapter<ApproachRoadCondition>(mContext, R.layout.row_spinner_item, Singleton.getInstance().approachRoadConditions_list) {
+            ArrayAdapter<ApproachRoadCondition> adapterApproachRoadCondition = new ArrayAdapter<ApproachRoadCondition>(mContext, R.layout.spinner_drop_list_item, Singleton.getInstance().approachRoadConditions_list) {
 
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
@@ -1586,11 +1586,11 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 }
 
             };
-            adapterApproachRoadCondition.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapterApproachRoadCondition.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_condition_approach.setAdapter(adapterApproachRoadCondition);
             spinner_condition_approach.setOnTouchListener(this);
 
-            ArrayAdapter<LocalityCategory> adapterLocalityCategory = new ArrayAdapter<LocalityCategory>(mContext, R.layout.row_spinner_item, Singleton.getInstance().localityCategories_list) {
+            ArrayAdapter<LocalityCategory> adapterLocalityCategory = new ArrayAdapter<LocalityCategory>(mContext, R.layout.spinner_drop_list_item, Singleton.getInstance().localityCategories_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1603,11 +1603,11 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            adapterLocalityCategory.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapterLocalityCategory.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_select_localitycate.setAdapter(adapterLocalityCategory);
             spinner_select_localitycate.setOnTouchListener(this);
 
-            ArrayAdapter<ClassModel> adapterClassModel = new ArrayAdapter<ClassModel>(mContext, R.layout.row_spinner_item, Singleton.getInstance().classes_list) {
+            ArrayAdapter<ClassModel> adapterClassModel = new ArrayAdapter<ClassModel>(mContext, R.layout.spinner_drop_list_item, Singleton.getInstance().classes_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1620,11 +1620,11 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            adapterClassModel.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapterClassModel.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_select_class.setAdapter(adapterClassModel);
             spinner_select_class.setOnTouchListener(this);
 
-            ArrayAdapter<Tenure> adapterTenure = new ArrayAdapter<Tenure>(mContext, R.layout.row_spinner_item, Singleton.getInstance().tenures_list) {
+            ArrayAdapter<Tenure> adapterTenure = new ArrayAdapter<Tenure>(mContext, R.layout.spinner_drop_list_item, Singleton.getInstance().tenures_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1637,11 +1637,11 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            adapterTenure.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapterTenure.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_select_tenure_ownership.setAdapter(adapterTenure);
             spinner_select_tenure_ownership.setOnTouchListener(this);
 
-            ArrayAdapter<Land> adapterLand = new ArrayAdapter<Land>(mContext, R.layout.row_spinner_item, Singleton.getInstance().land_list) {
+            ArrayAdapter<Land> adapterLand = new ArrayAdapter<Land>(mContext, R.layout.spinner_drop_list_item, Singleton.getInstance().land_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1654,12 +1654,12 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            adapterLand.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapterLand.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_landapproval.setAdapter(adapterLand);
             spinner_landapproval.setOnTouchListener(this);
 
             // spinner - Quality Of Construction
-            ArrayAdapter<QualityConstruction> qualityConstructionArrayAdapter = new ArrayAdapter<QualityConstruction>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().qualityConstructions_list) {
+            ArrayAdapter<QualityConstruction> qualityConstructionArrayAdapter = new ArrayAdapter<QualityConstruction>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().qualityConstructions_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1672,7 +1672,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            qualityConstructionArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            qualityConstructionArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_qualityofconstruction.setAdapter(qualityConstructionArrayAdapter);
             spinner_qualityofconstruction.setOnTouchListener(this);
 
@@ -1690,7 +1690,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
             }
 
             // spinner - Type Of Building
-            ArrayAdapter<Building> buildingArrayAdapter = new ArrayAdapter<Building>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().buildings_list) {
+            ArrayAdapter<Building> buildingArrayAdapter = new ArrayAdapter<Building>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().buildings_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1703,7 +1703,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            buildingArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            buildingArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_typeofbuilding.setAdapter(buildingArrayAdapter);
             spinner_typeofbuilding.setOnTouchListener(this);
 
@@ -1721,7 +1721,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
             }
 
             // spinner - Maintenance Of Building
-            ArrayAdapter<Maintenance> maintenanceArrayAdapter = new ArrayAdapter<Maintenance>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().maintenances_list) {
+            ArrayAdapter<Maintenance> maintenanceArrayAdapter = new ArrayAdapter<Maintenance>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().maintenances_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1734,7 +1734,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            maintenanceArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            maintenanceArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_maintenanceofbuilding.setAdapter(maintenanceArrayAdapter);
             spinner_maintenanceofbuilding.setOnTouchListener(this);
 
@@ -1752,7 +1752,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
             }
 
             // spinner - Quality of Fittings
-            ArrayAdapter<FittingQuality> fittingQualityArrayAdapter = new ArrayAdapter<FittingQuality>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().fittingQualities_List) {
+            ArrayAdapter<FittingQuality> fittingQualityArrayAdapter = new ArrayAdapter<FittingQuality>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().fittingQualities_List) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1765,7 +1765,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            fittingQualityArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            fittingQualityArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_qualityoffittings.setAdapter(fittingQualityArrayAdapter);
             spinner_qualityoffittings.setOnTouchListener(this);
 
@@ -1782,7 +1782,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
             }
 
             // spinner - Marketability
-            ArrayAdapter<Marketablity> marketablityArrayAdapter = new ArrayAdapter<Marketablity>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().marketablities_list) {
+            ArrayAdapter<Marketablity> marketablityArrayAdapter = new ArrayAdapter<Marketablity>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().marketablities_list) {
                 public View getView(int position, View convertView, ViewGroup parent) {
                     View v = super.getView(position, convertView, parent);
                     ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1795,7 +1795,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                     return v;
                 }
             };
-            marketablityArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            marketablityArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_marketability.setAdapter(marketablityArrayAdapter);
             spinner_marketability.setOnTouchListener(this);
 
@@ -1835,7 +1835,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         // spinner - nameof seller initials
         initials_typeList = new ArrayList<>();
         initials_typeList = general.NameofSellerInitials_array();
-        ArrayAdapter<String> nameofsellerListAdapter = new ArrayAdapter<String>(getActivity(), R.layout.row_spinner_item, initials_typeList) {
+        ArrayAdapter<String> nameofsellerListAdapter = new ArrayAdapter<String>(getActivity(), R.layout.spinner_drop_list_item, initials_typeList) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1849,7 +1849,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
             }
         };
 
-        nameofsellerListAdapter.setDropDownViewResource(R.layout.row_spinner_item_popup);
+        nameofsellerListAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_nameofseller.setPrompt(getResources().getString(R.string.nameof_seller));
         spinner_nameofseller.setAdapter(nameofsellerListAdapter);
         spinner_nameofseller.setOnTouchListener(this);
@@ -4224,8 +4224,8 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         Singleton.getInstance().floorsDeleteList = false;
 
 
-        textview_property_identified_text.setTypeface(general.regulartypeface());
-        textview_persently_occupied_text.setTypeface(general.regulartypeface());
+        //textview_property_identified_text.setTypeface(general.regulartypeface());
+        //textview_persently_occupied_text.setTypeface(general.regulartypeface());
 
         function_interior_floor();
         textview_flooring_text.setOnClickListener(new View.OnClickListener() {
@@ -4514,7 +4514,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         // spinner - Locality
-        ArrayAdapter<Locality> localityArrayAdapter = new ArrayAdapter<Locality>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().localities_list) {
+        ArrayAdapter<Locality> localityArrayAdapter = new ArrayAdapter<Locality>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().localities_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4527,7 +4527,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        localityArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        localityArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_typeoflocality.setAdapter(localityArrayAdapter);
         spinner_typeoflocality_for_land.setAdapter(localityArrayAdapter);
         spinner_typeoflocality.setOnTouchListener(this);
@@ -4548,7 +4548,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         }
 
         // spinner - bathflooring
-        ArrayAdapter<Bath> bathArrayAdapter = new ArrayAdapter<Bath>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().bath_list) {
+        ArrayAdapter<Bath> bathArrayAdapter = new ArrayAdapter<Bath>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().bath_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4561,7 +4561,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        bathArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        bathArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_bathflooring.setAdapter(bathArrayAdapter);
         spinner_bathflooring.setOnTouchListener(this);
 
@@ -4596,7 +4596,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         // spinner - amenitiesquality
-        ArrayAdapter<AmenityQuality> amenityQualityArrayAdapter = new ArrayAdapter<AmenityQuality>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().amenityQualities_list) {
+        ArrayAdapter<AmenityQuality> amenityQualityArrayAdapter = new ArrayAdapter<AmenityQuality>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().amenityQualities_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4609,7 +4609,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        amenityQualityArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        amenityQualityArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_amenitiesquality.setAdapter(amenityQualityArrayAdapter);
         spinner_amenitiesquality.setOnTouchListener(this);
 
@@ -4645,7 +4645,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         // spinner - kitchentype
-        ArrayAdapter<Kitchentype> kitchenArrayAdapter = new ArrayAdapter<Kitchentype>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().kitchens_list) {
+        ArrayAdapter<Kitchentype> kitchenArrayAdapter = new ArrayAdapter<Kitchentype>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().kitchens_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4658,7 +4658,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        kitchenArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        kitchenArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_kitchentype.setAdapter(kitchenArrayAdapter);
         spinner_kitchentype.setOnTouchListener(this);
 

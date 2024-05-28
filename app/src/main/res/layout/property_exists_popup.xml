@@ -27,7 +27,7 @@
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:text="@string/property_exists_text"
-            android:textColor="@color/Activite"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp"
             tools:ignore="HardcodedText" />
 
@@ -84,7 +84,7 @@
                 android:paddingEnd="20dp"
                 android:paddingStart="20dp"
                 android:text="NO"
-                android:textColor="@color/Black"
+                android:textColor="@color/colorPrimary"
                 android:textSize="16sp"
                 tools:ignore="ButtonStyle,HardcodedText" />
 

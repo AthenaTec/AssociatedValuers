@@ -46,7 +46,7 @@
                 android:layout_weight=".65"
                 android:fontFamily="@font/medium"
                 android:text="@string/applicant_name"
-                android:textColor="@color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/_10sdp" />
 
 
@@ -73,7 +73,8 @@
                         android:layout_height="match_parent"
                         android:background="@null"
                         android:entries="@array/salution"
-                        android:spinnerMode="dropdown" />
+                        android:spinnerMode="dropdown"
+                        android:popupBackground="@drawable/spinner_pop_up_dialog_bg"/>
 
                     <ImageView
                         style="@style/StyledImagedown_internal"
@@ -126,7 +127,7 @@
                 android:layout_weight=".65"
                 android:fontFamily="@font/medium"
                 android:text="@string/property_type_"
-                android:textColor="@color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/_10sdp" />
 
             <FrameLayout
@@ -143,7 +144,9 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:paddingTop="@dimen/height_8"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                    />
 
 
                 <ImageView
@@ -173,7 +176,7 @@
                 android:layout_weight=".65"
                 android:fontFamily="@font/medium"
                 android:text="@string/bank_name"
-                android:textColor="@color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/_10sdp" />
 
 
@@ -191,7 +194,9 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:paddingTop="@dimen/height_8"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                    />
 
                 <ImageView
                     style="@style/StyledImagedown_large"
@@ -221,7 +226,7 @@
                 android:layout_weight=".65"
                 android:fontFamily="@font/medium"
                 android:text="@string/case_admin"
-                android:textColor="@color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/_10sdp" />
 
 
@@ -239,7 +244,9 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:paddingTop="@dimen/height_8"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                    />
 
                 <ImageView
                     style="@style/StyledImagedown_large"
@@ -267,7 +274,7 @@
                 android:layout_weight=".65"
                 android:fontFamily="@font/medium"
                 android:text="@string/report_maker"
-                android:textColor="@color/black"
+                android:textColor="@color/colorAccent"
                 android:textSize="@dimen/_10sdp" />
 
 
@@ -285,7 +292,9 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:paddingTop="@dimen/height_8"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                    />
 
                 <ImageView
                     style="@style/StyledImagedown_large"

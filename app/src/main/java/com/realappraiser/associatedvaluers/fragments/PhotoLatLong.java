@@ -527,7 +527,7 @@ public class PhotoLatLong extends Fragment implements
         mMap.animateCamera(CameraUpdateFactory.zoomTo(15), 2000, null);
         mMap.addMarker(new MarkerOptions()
                 .position(new LatLng(Geolocation_lat, Geolocation_long))
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
     }
 
 
@@ -1840,9 +1840,9 @@ public class PhotoLatLong extends Fragment implements
             if (position == 0 || position == 1) {
                 holder.imagedefaultlayout.setVisibility(View.VISIBLE);
                 if (position == 0)
-                    holder.addimage.setText("ADD CAMERA IMAGE");
+                    holder.addimage.setText("Add Camera Image");
                 if (position == 1)
-                    holder.addimage.setText("ADD GALLERY IMAGE");
+                    holder.addimage.setText("Add Gallery Image");
             } else {
                 holder.imagedefaultlayout.setVisibility(View.GONE);
                 if (GetPhoto_list.size() > 0) {

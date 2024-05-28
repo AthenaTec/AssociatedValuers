@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close_img.xml.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\ic_close_img.xml"
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_horizontal_imageadapter.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\horizontal_imageadapter.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_close_case_adapter.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\close_case_adapter.xml"
     },
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_horizontal_imageadapter.xml.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\horizontal_imageadapter.xml"
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close_img.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\ic_close_img.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_down.png.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\activity_map_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_fragment_fragment_valuation_penthouse.xml.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\fragment_fragment_valuation_penthouse.xml"
-    },
-    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_calculator_result.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\calculator_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_fragment_fragment_valuation_penthouse.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\fragment_fragment_valuation_penthouse.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_offlinecase_checkadapter.xml.flat",
@@ -132,12 +132,12 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_launcher_logo.png.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\mipmap-hdpi\\launcher_logo.png"
-    },
-    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_calculator_result.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\calculator_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_launcher_logo.png.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\mipmap-hdpi\\launcher_logo.png"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -164,6 +164,10 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\fragment_fragment_valuation_land.xml"
     },
     {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\splash_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_offine_case_adapter.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\offine_case_adapter.xml"
     },
@@ -172,12 +176,12 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\cutlayout.xml"
     },
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_land.xml.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\activity_fragment_land.xml"
-    },
-    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\ic_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment_land.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\activity_fragment_land.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\anim_popup_show_x.xml.flat",
@@ -256,12 +260,16 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\anim\\slide_in_down.xml"
     },
     {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_valuation_actual_area.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\valuation_actual_area.xml"
+    },
+    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_lite_grey.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\border_lite_grey.xml"
     },
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_valuation_actual_area.xml.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\valuation_actual_area.xml"
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_asv_splash_screen.png.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\asv_splash_screen.png"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greyshape.xml.flat",
@@ -314,6 +322,10 @@
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_documentpopup.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\documentpopup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_drop_list_item.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\spinner_drop_list_item.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_multiselect_checkbox_row.xml.flat",
@@ -580,6 +592,10 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\eye.xml"
     },
     {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_drop_list_item.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\spinner_drop_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_document_dashb.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\document_dashb.xml"
     },
@@ -668,6 +684,10 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\internal_floors.xml"
     },
     {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_case_bg.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\case_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_down.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\anim\\slide_out_down.xml"
     },
@@ -690,6 +710,10 @@
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_multiselect_checkbox.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout\\multiselect_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_asv_logo.jpg.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\asv_logo.jpg"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_dia_loading.xml.flat",
@@ -874,6 +898,10 @@
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_progressbar_spinnerstyle.xml.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\progressbar_spinnerstyle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_pop_up_dialog_bg.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\spinner_pop_up_dialog_bg.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout_multiselect_checkbox_row.xml.flat",

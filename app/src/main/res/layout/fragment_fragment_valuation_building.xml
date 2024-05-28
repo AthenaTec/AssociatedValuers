@@ -18,7 +18,7 @@
         android:layout_marginLeft="@dimen/height_3"
         android:layout_marginTop="@dimen/height_3"
         android:text="@string/landvaluation"
-        android:textColor="@color/font_heading"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_samll"
         android:textStyle="normal"
         tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
@@ -82,7 +82,9 @@
                 android:id="@+id/spinner_ft_meter"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@null" />
+                android:background="@null"
+                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                />
 
             <ImageView
                 style="@style/StyledImagedown_large"
@@ -350,7 +352,7 @@
         android:layout_gravity="left|center_vertical"
         android:layout_marginLeft="@dimen/height_3"
         android:text="@string/constructionvaluation"
-        android:textColor="@color/font_heading"
+        android:textColor="@color/colorPrimary"
         android:textSize="@dimen/font_samll"
         android:textStyle="normal"
         tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />

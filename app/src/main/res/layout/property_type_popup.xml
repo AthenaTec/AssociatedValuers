@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/property_type"
-            android:textColor="@color/Activite"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -76,7 +76,7 @@
                 android:paddingEnd="20dp"
                 android:paddingStart="20dp"
                 android:text="CANCEL"
-                android:textColor="@color/Black"
+                android:textColor="@color/colorPrimary"
                 android:textSize="16sp"
                 tools:ignore="ButtonStyle,HardcodedText" />
 

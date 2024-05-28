@@ -16,13 +16,15 @@
         android:padding="40dp"
         android:orientation="vertical">
 
-   <!-- <ImageView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/logo"
-        tools:ignore="ContentDescription" />-->
+        android:layout_marginTop="10dp"
+        android:src="@drawable/asv_splash_screen"
+        tools:ignore="ContentDescription"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
 
 
         <TextView
@@ -33,7 +35,7 @@
             android:text="Associated Valuers"
             android:fontFamily="@font/regular"
             android:textStyle="bold"
-            android:textSize="@dimen/_24sdp"
+            android:textSize="@dimen/_22sdp"
             android:textColor="@color/colorPrimary"
             tools:ignore="ContentDescription"
            />
@@ -65,7 +67,7 @@
             android:id="@+id/email_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="User Name"
+            android:hint="Username"
             android:inputType="textEmailAddress"
             android:textColor="@color/Black"
             tools:ignore="HardcodedText" />
