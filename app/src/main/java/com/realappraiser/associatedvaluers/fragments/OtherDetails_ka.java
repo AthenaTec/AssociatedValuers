@@ -1474,7 +1474,8 @@ public class OtherDetails_ka extends Fragment implements View.OnClickListener, O
 
     private void spinnerValuesInitiate() {
 
-        ArrayAdapter<ApproachRoadCondition> adapterApproachRoadCondition = new ArrayAdapter<ApproachRoadCondition>(mContext, R.layout.row_spinner_item, Singleton.getInstance().approachRoadConditions_list) {
+        ArrayAdapter<ApproachRoadCondition> adapterApproachRoadCondition = new ArrayAdapter<ApproachRoadCondition>(mContext, R.layout.row_spinner_item, Singleton.getInstance().approachRoadConditions_list)
+        {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4061,7 +4062,7 @@ public class OtherDetails_ka extends Fragment implements View.OnClickListener, O
         Singleton.getInstance().floorsDeleteList = false;
 
 
-        textview_property_identified_text.setTypeface(general.regulartypeface());
+        //textview_property_identified_text.setTypeface(general.regulartypeface());
         textview_persently_occupied_text.setTypeface(general.regulartypeface());
 
         function_interior_floor();

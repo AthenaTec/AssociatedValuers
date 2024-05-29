@@ -173,6 +173,7 @@
         <item name="android:singleLine">true</item>
     </style>
 
+
     <style name="StyledTilText_multicheck">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -180,10 +181,11 @@
         <item name="android:paddingLeft">@dimen/height_3</item>
         <item name="android:paddingRight">@dimen/height_15</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:textSize">@dimen/_11sdp</item>
         <item name="android:imeOptions">actionNext|flagNoExtractUi</item>
         <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
         <item name="android:background">@null</item>
+
     </style>
 
     <style name="StyledTilEditTextTheme">

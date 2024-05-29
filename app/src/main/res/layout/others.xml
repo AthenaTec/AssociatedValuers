@@ -657,7 +657,8 @@
                                 style="@style/StyledTilText_multicheck"
                                 android:layout_gravity="left|center_vertical"
                                 android:gravity="left|center_vertical"
-                                tools:ignore="InconsistentLayout,RtlHardcoded" />
+                                tools:ignore="InconsistentLayout,RtlHardcoded"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -3129,7 +3130,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@null"
-                                tools:ignore="InconsistentLayout" />
+                                tools:ignore="InconsistentLayout"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"
@@ -3479,7 +3482,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@null"
-                                tools:ignore="InconsistentLayout" />
+                                tools:ignore="InconsistentLayout"
+                                android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                                />
 
                             <ImageView
                                 style="@style/StyledImagedown_large"

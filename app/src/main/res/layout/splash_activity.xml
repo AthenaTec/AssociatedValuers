@@ -32,12 +32,14 @@
         android:layout_width="@dimen/_100sdp"
         android:layout_height="@dimen/_100sdp"
         android:layout_gravity="center"
-        android:src="@drawable/asv_splash_screen"
+        android:src="@mipmap/launcher_logo"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         tools:ignore="ContentDescription"
         android:layout_alignTop="@+id/head"
         />
+
+    <!--android:src="@drawable/asv_splash_screen"-->
 
     <TextView
         android:layout_width="match_parent"

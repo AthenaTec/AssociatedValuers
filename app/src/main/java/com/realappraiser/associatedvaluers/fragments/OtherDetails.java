@@ -1455,13 +1455,13 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         /* san Integration */
-        textview_flooring_text.setTypeface(general.regulartypeface());
-        textview_roofing_text.setTypeface(general.regulartypeface());
-        textview_paint_text.setTypeface(general.regulartypeface());
-        textview_door_text.setTypeface(general.regulartypeface());
-        textview_window_text.setTypeface(general.regulartypeface());
-        textview_exter_struc_text.setTypeface(general.regulartypeface());
-        textview_exter_paint_text.setTypeface(general.regulartypeface());
+        textview_flooring_text.setTypeface(general.mediumtypeface());
+        textview_roofing_text.setTypeface(general.mediumtypeface());
+        textview_paint_text.setTypeface(general.mediumtypeface());
+        textview_door_text.setTypeface(general.mediumtypeface());
+        textview_window_text.setTypeface(general.mediumtypeface());
+        textview_exter_struc_text.setTypeface(general.mediumtypeface());
+        textview_exter_paint_text.setTypeface(general.mediumtypeface());
 
         //TODO - Property - mediumtypeface
         textview_property_details.setTypeface(general.mediumtypeface());
@@ -1524,11 +1524,11 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         bathflooring.setTypeface(general.regulartypeface());
         amenitiesquality.setTypeface(general.regulartypeface());
         kitchentypelding.setTypeface(general.regulartypeface());
-        wateravailabilty.setTypeface(general.regulartypeface());
-        wc.setTypeface(general.regulartypeface());
+        wateravailabilty.setTypeface(general.mediumtypeface());
+        wc.setTypeface(general.mediumtypeface());
         pavingaroundbuilding.setTypeface(general.regulartypeface());
         kitchenshape.setTypeface(general.regulartypeface());
-        carparking.setTypeface(general.regulartypeface());
+        carparking.setTypeface(general.mediumtypeface());
 
         /*17th*/
         textview_property_type_heading.setTypeface(general.regulartypeface());
@@ -4224,8 +4224,8 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         Singleton.getInstance().floorsDeleteList = false;
 
 
-        //textview_property_identified_text.setTypeface(general.regulartypeface());
-        //textview_persently_occupied_text.setTypeface(general.regulartypeface());
+        textview_property_identified_text.setTypeface(general.mediumtypeface());
+        textview_persently_occupied_text.setTypeface(general.mediumtypeface());
 
         function_interior_floor();
         textview_flooring_text.setOnClickListener(new View.OnClickListener() {
@@ -4466,7 +4466,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
         // spinner - Lobby
         Singleton.getInstance().lobby_list = general.lobby_array();
-        ArrayAdapter<String> lobbyArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().lobby_list) {
+        ArrayAdapter<String> lobbyArrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().lobby_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4479,7 +4479,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        lobbyArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        lobbyArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_passagecorridorschowklobby.setAdapter(lobbyArrayAdapter);
         spinner_passagecorridorschowklobby.setOnTouchListener(this);
 
@@ -4693,7 +4693,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         // spinner - kitchenshape
-        ArrayAdapter<Kitchen> kitchenshapeArrayAdapter = new ArrayAdapter<Kitchen>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().kitchens_shape_list) {
+        ArrayAdapter<Kitchen> kitchenshapeArrayAdapter = new ArrayAdapter<Kitchen>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().kitchens_shape_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4706,7 +4706,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        kitchenshapeArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        kitchenshapeArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_kitchenshape.setAdapter(kitchenshapeArrayAdapter);
         spinner_kitchenshape.setOnTouchListener(this);
 
@@ -4741,7 +4741,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         // spinner - pavingaroundbuilding
-        ArrayAdapter<Paving> pavingArrayAdapter = new ArrayAdapter<Paving>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().pavings_list) {
+        ArrayAdapter<Paving> pavingArrayAdapter = new ArrayAdapter<Paving>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().pavings_list) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -4754,7 +4754,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 return v;
             }
         };
-        pavingArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        pavingArrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_pavingaroundbuilding.setAdapter(pavingArrayAdapter);
         spinner_pavingaroundbuilding.setOnTouchListener(this);
 
@@ -4791,6 +4791,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
 
         function_wateravailabilty();
+        textview_wateravailabilty_text.setTypeface(general.mediumtypeface());
         textview_wateravailabilty_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -4800,6 +4801,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         });
 
         function_wc();
+        textview_wc_text.setTypeface(general.mediumtypeface());
         textview_wc_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -4809,6 +4811,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
         });
 
         function_carparking();
+        textview_carparking_text.setTypeface(general.mediumtypeface());
         textview_carparking_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.realappraiser.associatedvaluers.R;
 import com.realappraiser.associatedvaluers.communicator.DataResponse;
@@ -198,9 +199,22 @@ public class ProximityAdapter extends RecyclerView.Adapter<ProximityAdapter.View
                 }
             });
 
-            ArrayAdapter<ProximitySpinner> adapterProximity = new ArrayAdapter<>(context,
-                    R.layout.row_spinner_item, Singleton.getInstance().proximities_list);
-            adapterProximity.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            ArrayAdapter<ProximitySpinner> adapterProximity = new ArrayAdapter<ProximitySpinner>(context,
+                    R.layout.spinner_drop_list_item, Singleton.getInstance().proximities_list){
+                public View getView(int position, View convertView, ViewGroup parent) {
+                    View v = super.getView(position, convertView, parent);
+                    ((TextView) v).setTypeface(general.mediumtypeface());
+                    return v;
+                }
+
+                public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                    View v = super.getDropDownView(position, convertView, parent);
+                    ((TextView) v).setTypeface(general.mediumtypeface());
+                    return v;
+                }
+
+            };
+            adapterProximity.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinner_proximities_1.setAdapter(adapterProximity);
 
             spinner_proximities_1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
