@@ -203,9 +203,24 @@ public class FragmentLand extends Fragment {
 
 
     public void spinnerMeasurementonLand() {
-        ArrayAdapter<Measurements> adapterMeasurements = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item, Singleton.getInstance().measurements_list);
-        adapterMeasurements.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<Measurements> adapterMeasurements = new ArrayAdapter<Measurements>(getActivity(),
+                R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list){
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View v = super.getView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = super.getDropDownView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+        };
+
+
+        adapterMeasurements.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_measurementland.setAdapter(adapterMeasurements);
         spinner_measurementland.setOnTouchListener(new View.OnTouchListener() {
             @Override

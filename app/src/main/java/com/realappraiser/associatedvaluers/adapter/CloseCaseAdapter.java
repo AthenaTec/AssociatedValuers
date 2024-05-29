@@ -67,9 +67,9 @@ public class CloseCaseAdapter extends RecyclerView.Adapter<CloseCaseAdapter.View
             holder.close_bank.setText(R.string.dot);
         }
 
-        String assignedAt = dataModels.get(position).getCreatedOn();
+        String assignedAt = dataModels.get(position).getAssignedAt();
         if (!general.isEmpty(assignedAt)) {
-            String assigned_date = General.AssignedClosedDate(dataModels.get(position).getCreatedOn());
+            String assigned_date = General.AssignedClosedDate(dataModels.get(position).getAssignedAt());
             holder.assigned_date.setText(assigned_date);
             holder.closed_date.setText(assigned_date);
         } else {

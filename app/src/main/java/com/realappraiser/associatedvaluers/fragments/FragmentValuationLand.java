@@ -265,13 +265,13 @@ public class FragmentValuationLand extends Fragment implements RatePopupupInterf
 
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item_, compareList);
-        arrayAdapter.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, compareList);
+        arrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spPropertyType.setAdapter(arrayAdapter);
 
         ArrayAdapter<String> arrayAdapter_ = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item_, kmList);
-        arrayAdapter_.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, kmList);
+        arrayAdapter_.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spDistance.setAdapter(arrayAdapter_);
 
         tvLatLng.setText(latvalue.getText().toString() + ", " + longvalue.getText().toString());
@@ -402,7 +402,9 @@ public class FragmentValuationLand extends Fragment implements RatePopupupInterf
 
 
         spinner_realizable = (TextView) view.findViewById(R.id.spinner_realizable);
+        spinner_realizable.setTypeface(general.mediumtypeface());
         spinner_distress = (TextView) view.findViewById(R.id.spinner_distress);
+        spinner_distress.setTypeface(general.mediumtypeface());
         edittext_realizable_value_total = (EditText) view.findViewById(R.id.edittext_realizable_value_total);
         edittext_distress_total = (EditText) view.findViewById(R.id.edittext_distress_total);
 
@@ -903,7 +905,7 @@ public class FragmentValuationLand extends Fragment implements RatePopupupInterf
             textview_totalpropertyvalue_result.setText("0");
         }
         // spinner - Measuremnet - GuidelineRateUnit
-        ArrayAdapter<Measurements> measurementsArrayAdapter_guild = new ArrayAdapter<Measurements>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().measurements_list_val_sqya) {
+        ArrayAdapter<Measurements> measurementsArrayAdapter_guild = new ArrayAdapter<Measurements>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list_val_sqya) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -916,7 +918,7 @@ public class FragmentValuationLand extends Fragment implements RatePopupupInterf
                 return v;
             }
         };
-        measurementsArrayAdapter_guild.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        measurementsArrayAdapter_guild.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_ft_meter.setAdapter(measurementsArrayAdapter_guild);
         spinner_ft_meter.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

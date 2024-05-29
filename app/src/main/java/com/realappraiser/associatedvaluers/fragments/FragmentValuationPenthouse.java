@@ -391,13 +391,13 @@ public class FragmentValuationPenthouse extends Fragment implements RatePopupupI
 
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item_, compareList);
-        arrayAdapter.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, compareList);
+        arrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spPropertyType.setAdapter(arrayAdapter);
 
         ArrayAdapter<String> arrayAdapter_ = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item_, kmList);
-        arrayAdapter_.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, kmList);
+        arrayAdapter_.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spDistance.setAdapter(arrayAdapter_);
 
         tvLatLng.setText(latvalue.getText().toString() + ", " + longvalue.getText().toString());
@@ -747,8 +747,11 @@ public class FragmentValuationPenthouse extends Fragment implements RatePopupupI
         // spinnerLoadingOverBuildup = (Spinner) view.findViewById(R.id.spinnerLoadingOverBuildup);
         spinnerAreaType = (Spinner) view.findViewById(R.id.spinnerAreaType);
         spinner_realizable = (TextView) view.findViewById(R.id.spinner_realizable);
+        spinner_realizable.setTypeface(general.mediumtypeface());
         spinner_distress = (TextView) view.findViewById(R.id.spinner_distress);
+        spinner_distress.setTypeface(general.mediumtypeface());
         spinnerLoadingOverBuildup = (TextView) view.findViewById(R.id.spinnerLoadingOverBuildup);
+        spinnerLoadingOverBuildup.setTypeface(general.mediumtypeface());
 
         edittext_carpet_area.setFocusable(false);
         edittext_builtup_area.setFocusable(false);
@@ -807,7 +810,7 @@ public class FragmentValuationPenthouse extends Fragment implements RatePopupupI
         edittext_measurementunit.setTypeface(general.regulartypeface());
         textview_type_of_area.setTypeface(general.regulartypeface());
         textview_areatypetvalue.setTypeface(general.regulartypeface());
-        textview_loadingoverbuildup.setTypeface(general.regulartypeface());
+        textview_loadingoverbuildup.setTypeface(general.mediumtypeface());
 
        /* *//***Clear Area type spinner***//*
         Singleton.getInstance().areaType.clear();
@@ -866,9 +869,24 @@ public class FragmentValuationPenthouse extends Fragment implements RatePopupupI
 
     public void AreaTypeSpinner(final ArrayList<String> areaType, final String area_type) {
         if (mContext != null) {
-            adapterAreaType = new ArrayAdapter<>(mContext,
-                    R.layout.row_spinner_item, areaType);
-            adapterAreaType.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapterAreaType = new ArrayAdapter<String>(mContext,
+                    R.layout.spinner_drop_list_item, areaType)
+            {
+
+                public View getView(int position, View convertView, ViewGroup parent) {
+                    View v = super.getView(position, convertView, parent);
+                    ((TextView) v).setTypeface(general.mediumtypeface());
+                    return v;
+                }
+
+                public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                    View v = super.getDropDownView(position, convertView, parent);
+                    ((TextView) v).setTypeface(general.mediumtypeface());
+                    return v;
+                }
+
+            };
+            adapterAreaType.setDropDownViewResource(R.drawable.spinner_drop_list_item);
             spinnerAreaType.setAdapter(adapterAreaType);
             spinnerAreaType.setOnTouchListener(new View.OnTouchListener() {
                 @Override

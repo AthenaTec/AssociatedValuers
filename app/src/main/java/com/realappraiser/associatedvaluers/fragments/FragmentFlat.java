@@ -552,9 +552,24 @@ public class FragmentFlat extends Fragment implements View.OnTouchListener {
     }
 
     public void getMeasurementonGeneralFloor() {
-        ArrayAdapter<Measurements> adapterMeasurements = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item, Singleton.getInstance().measurements_list);
-        adapterMeasurements.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<Measurements> adapterMeasurements = new ArrayAdapter<Measurements>(getActivity(),
+                R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list)
+        {
+
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View v = super.getView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = super.getDropDownView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+        };
+        adapterMeasurements.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinnerMeasurement_doc.setAdapter(adapterMeasurements);
         spinnerMeasurement_doc.setOnTouchListener(this);
 
@@ -576,8 +591,21 @@ public class FragmentFlat extends Fragment implements View.OnTouchListener {
         });
 
         ArrayAdapter<Measurements> adapterMeasurements2 = new ArrayAdapter<Measurements>(getActivity(),
-                R.layout.row_spinner_item, Singleton.getInstance().measurements_list_flat);
-        adapterMeasurements2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list_flat)
+        {
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View v = super.getView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = super.getDropDownView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+        };
+        adapterMeasurements2.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_measurement_act.setAdapter(adapterMeasurements2);
         spinner_measurement_act.setSelection(1);
         spinner_measurement_act.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -605,8 +633,21 @@ public class FragmentFlat extends Fragment implements View.OnTouchListener {
         carpetloading_type.add("Buildup Area");
         carpetloading_type.add("Saleable Area");
 
-        ArrayAdapter<String> adapterMeasurements3 = new ArrayAdapter<String>(getActivity(), R.layout.row_spinner_item, carpetloading_type);
-        adapterMeasurements3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> adapterMeasurements3 = new ArrayAdapter<String>(getActivity(), R.layout.spinner_drop_list_item, carpetloading_type)
+        {
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View v = super.getView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = super.getDropDownView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+        };
+        adapterMeasurements3.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_carpetloading_type.setAdapter(adapterMeasurements3);
 
         String SelectedCarpetAreaTypeId = Singleton.getInstance().indPropertyValuation.getSelectedCarpetAreaTypeId();
@@ -740,10 +781,25 @@ public class FragmentFlat extends Fragment implements View.OnTouchListener {
     }*/
 
     public void getConstructionStageSpinner() {
-        ArrayAdapter<Construction> adapterStageConstruct = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item, Singleton.getInstance().constructions_list);
+        ArrayAdapter<Construction> adapterStageConstruct = new ArrayAdapter<Construction>(getActivity(),
+                R.layout.spinner_drop_list_item, Singleton.getInstance().constructions_list)
+        {
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View v = super.getView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
 
-        adapterStageConstruct.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = super.getDropDownView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+        };
+
+        ;
+
+        adapterStageConstruct.setDropDownViewResource(R.drawable.spinner_drop_list_item);
 
 
         stageSpinner.setAdapter(adapterStageConstruct);
@@ -844,7 +900,7 @@ public class FragmentFlat extends Fragment implements View.OnTouchListener {
         /* sugan Integration */
         Singleton.getInstance().PropertyActualUsage_id.clear();
         Singleton.getInstance().PropertyActualUsage_name.clear();
-        textview_actual_usage_flat.setTypeface(general.regulartypeface());
+        textview_actual_usage_flat.setTypeface(general.mediumtypeface());
         function_actual_usage();
         textview_actual_usage_flat.setOnClickListener(new View.OnClickListener() {
             @Override

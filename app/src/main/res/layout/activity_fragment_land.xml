@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/icon_calculator" />
+                    android:src="@drawable/asv_calculator" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/icon_calculator" />
+                    android:src="@drawable/asv_calculator" />
             </RelativeLayout>
 
             <FrameLayout
@@ -122,7 +122,9 @@
                     android:id="@+id/spinner_measurementland"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@null" />
+                    android:background="@null"
+                    android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                    />
 
                 <ImageView
                     style="@style/StyledImagedown_large"

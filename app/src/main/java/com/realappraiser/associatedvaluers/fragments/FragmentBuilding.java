@@ -317,6 +317,7 @@ FragmentBuilding extends Fragment implements View.OnClickListener {
         rotateloading = (RotateLoading) view.findViewById(R.id.rotateloading);
 
 
+
         //  limit the 2 char after the decimal point
         editText_compound_permissiblearea.setFilters(new InputFilter[]{new DecimalDigitsInputFilter(8, 2)});
         editText_as_per_measurement.setFilters(new InputFilter[]{new DecimalDigitsInputFilter(8, 2)});
@@ -1197,9 +1198,24 @@ FragmentBuilding extends Fragment implements View.OnClickListener {
 
     private void spinnerValuesInitiate() {
 
-        ArrayAdapter<Measurements> adapterMeasurements = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item, Singleton.getInstance().measurements_list);
-        adapterMeasurements.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<Measurements> adapterMeasurements = new ArrayAdapter<Measurements>(getActivity(),
+                R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list)
+        {
+
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View v = super.getView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = super.getDropDownView(position, convertView, parent);
+                ((TextView) v).setTypeface(general.mediumtypeface());
+                return v;
+            }
+
+        };
+        adapterMeasurements.setDropDownViewResource(R.drawable.spinner_drop_list_item);
 
         spinner_measurement1.setAdapter(adapterMeasurements);
 
@@ -1232,7 +1248,7 @@ FragmentBuilding extends Fragment implements View.OnClickListener {
         /* san Integration */
         Singleton.getInstance().PropertyActualUsage_id.clear();
         Singleton.getInstance().PropertyActualUsage_name.clear();
-        textview_actual_usage.setTypeface(general.regulartypeface());
+        textview_actual_usage.setTypeface(general.mediumtypeface());
         function_actual_usage();
         textview_actual_usage.setOnClickListener(new View.OnClickListener() {
             @Override

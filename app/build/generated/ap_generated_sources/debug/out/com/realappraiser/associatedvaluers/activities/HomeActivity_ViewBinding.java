@@ -46,7 +46,6 @@ public class HomeActivity_ViewBinding implements Unbinder {
     target.offlinerecyclerview = Utils.findRequiredViewAsType(source, R.id.offlinerecyclerview, "field 'offlinerecyclerview'", RecyclerView.class);
     target.pending_case = Utils.findRequiredViewAsType(source, R.id.pending_case, "field 'pending_case'", TextView.class);
     target.pendingLayout = Utils.findRequiredViewAsType(source, R.id.pendingLayout, "field 'pendingLayout'", LinearLayout.class);
-    target.pendingcutLay = Utils.findRequiredViewAsType(source, R.id.pendingcutLay, "field 'pendingcutLay'", LinearLayout.class);
     target.pending_cut_image = Utils.findRequiredViewAsType(source, R.id.pending_cut_image, "field 'pending_cut_image'", ImageView.class);
     target.pendingViewLayout = Utils.findRequiredViewAsType(source, R.id.pendingViewLayout, "field 'pendingViewLayout'", LinearLayout.class);
     target.pendingrecyclerview = Utils.findRequiredViewAsType(source, R.id.pendingrecyclerview, "field 'pendingrecyclerview'", RecyclerView.class);
@@ -82,7 +81,6 @@ public class HomeActivity_ViewBinding implements Unbinder {
     target.offlinerecyclerview = null;
     target.pending_case = null;
     target.pendingLayout = null;
-    target.pendingcutLay = null;
     target.pending_cut_image = null;
     target.pendingViewLayout = null;
     target.pendingrecyclerview = null;

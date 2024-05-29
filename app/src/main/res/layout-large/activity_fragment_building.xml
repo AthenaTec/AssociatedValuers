@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/icon_calculator" />
+                android:src="@drawable/asv_calculator" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -133,7 +133,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/icon_calculator" />
+                android:src="@drawable/asv_calculator" />
         </RelativeLayout>
 
         <FrameLayout

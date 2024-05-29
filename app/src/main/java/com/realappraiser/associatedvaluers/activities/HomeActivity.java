@@ -160,8 +160,8 @@ public class HomeActivity extends AppCompatActivity implements
     TextView pending_case;
     @BindView(R.id.pendingLayout)
     LinearLayout pendingLayout;
-    @BindView(R.id.pendingcutLay)
-    LinearLayout pendingcutLay;
+    /*@BindView(R.id.pendingcutLay)
+    LinearLayout pendingcutLay;*/
     @BindView(R.id.pending_cut_image)
     ImageView pending_cut_image;
     @BindView(R.id.pendingViewLayout)
@@ -986,10 +986,10 @@ public class HomeActivity extends AppCompatActivity implements
         open_cut_image.setImageResource(R.drawable.white_cutlayout);
         openViewLayout.setVisibility(View.GONE);
 
-        pending_case.setTextColor(getResources().getColor(R.color.White));
+       /* pending_case.setTextColor(getResources().getColor(R.color.White));
         pendingcutLay.setBackgroundColor((getResources().getColor(R.color.colorPrimary)));
-        pendingViewLayout.setVisibility(View.VISIBLE);
-        pending_cut_image.setImageResource(R.drawable.cutlayout);
+        pendingViewLayout.setVisibility(View.Gone);
+        pending_cut_image.setImageResource(R.drawable.cutlayout);*/
 
         closed_case.setTextColor(getResources().getColor(R.color.Activite));
         closecutLay.setBackgroundColor((getResources().getColor(R.color.white)));
@@ -1002,7 +1002,7 @@ public class HomeActivity extends AppCompatActivity implements
         offline_case.setTextColor(getResources().getColor(R.color.Activite));
 
         if (pendingCaseDataModels.size() > 0) {
-            pendingViewLayout.setVisibility(View.VISIBLE);
+            pendingViewLayout.setVisibility(View.GONE);
             no_data_found_pending.setVisibility(View.GONE);
             no_data_found_open.setVisibility(View.GONE);
             no_data_found_close.setVisibility(View.GONE);
@@ -1029,11 +1029,11 @@ public class HomeActivity extends AppCompatActivity implements
         openViewLayout.setVisibility(View.VISIBLE);
         closeViewLayout.setVisibility(View.GONE);
 
-        pending_case.setTextColor(getResources().getColor(R.color.Activite));
+        /*pending_case.setTextColor(getResources().getColor(R.color.Activite));
         pendingcutLay.setBackgroundColor((getResources().getColor(R.color.white)));
         pending_cut_image.setImageResource(R.drawable.white_cutlayout);
         pendingViewLayout.setVisibility(View.GONE);
-        no_data_found_pending.setVisibility(View.GONE);
+        no_data_found_pending.setVisibility(View.GONE);*/
 
         if (enable_offline_button) {
             // Show offline Button
@@ -1078,11 +1078,11 @@ public class HomeActivity extends AppCompatActivity implements
         closeViewLayout.setVisibility(View.VISIBLE);
         /*GoOfflineLayout.setVisibility(View.GONE);*/
 
-        pending_case.setTextColor(getResources().getColor(R.color.Activite));
+        /*pending_case.setTextColor(getResources().getColor(R.color.Activite));
         pendingcutLay.setBackgroundColor((getResources().getColor(R.color.white)));
         pending_cut_image.setImageResource(R.drawable.white_cutlayout);
         pendingViewLayout.setVisibility(View.GONE);
-        no_data_found_pending.setVisibility(View.GONE);
+        no_data_found_pending.setVisibility(View.GONE);*/
 
         no_data_found_open.setVisibility(View.GONE);
         no_data_found_offline.setVisibility(View.GONE);
@@ -1114,11 +1114,11 @@ public class HomeActivity extends AppCompatActivity implements
         closeViewLayout.setVisibility(View.GONE);
         /*  GoOfflineLayout.setVisibility(View.GONE);*/
 
-        pending_case.setTextColor(getResources().getColor(R.color.Activite));
+       /* pending_case.setTextColor(getResources().getColor(R.color.Activite));
         pendingcutLay.setBackgroundColor((getResources().getColor(R.color.white)));
         pending_cut_image.setImageResource(R.drawable.white_cutlayout);
         pendingViewLayout.setVisibility(View.GONE);
-        no_data_found_pending.setVisibility(View.GONE);
+        no_data_found_pending.setVisibility(View.GONE);*/
 
         no_data_found_open.setVisibility(View.GONE);
         no_data_found_close.setVisibility(View.GONE);

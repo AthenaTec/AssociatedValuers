@@ -75,7 +75,9 @@
                     android:id="@+id/spinner_ft_meter"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@null" />
+                    android:background="@null"
+                    android:popupBackground="@drawable/spinner_pop_up_dialog_bg"
+                    />
 
                 <ImageView
                     style="@style/StyledImagedown_large"

@@ -123,6 +123,7 @@ com/realappraiser/associatedvaluers/fragments/FragmentValuationPenthouse.java
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$20
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$21
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$22
+ com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$23
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$3
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$4
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$5
@@ -221,6 +222,10 @@ com/realappraiser/associatedvaluers/fragments/FragmentFlat.java
  com.realappraiser.associatedvaluers.fragments.FragmentFlat$42
  com.realappraiser.associatedvaluers.fragments.FragmentFlat$43
  com.realappraiser.associatedvaluers.fragments.FragmentFlat$44
+ com.realappraiser.associatedvaluers.fragments.FragmentFlat$45
+ com.realappraiser.associatedvaluers.fragments.FragmentFlat$46
+ com.realappraiser.associatedvaluers.fragments.FragmentFlat$47
+ com.realappraiser.associatedvaluers.fragments.FragmentFlat$48
  com.realappraiser.associatedvaluers.fragments.FragmentFlat$5
  com.realappraiser.associatedvaluers.fragments.FragmentFlat$6
  com.realappraiser.associatedvaluers.fragments.FragmentFlat$7
@@ -352,6 +357,7 @@ com/realappraiser/associatedvaluers/adapter/ProximityAdapter.java
  com.realappraiser.associatedvaluers.adapter.ProximityAdapter$ViewHolder$3
  com.realappraiser.associatedvaluers.adapter.ProximityAdapter$ViewHolder$4
  com.realappraiser.associatedvaluers.adapter.ProximityAdapter$ViewHolder$5
+ com.realappraiser.associatedvaluers.adapter.ProximityAdapter$ViewHolder$6
 com/realappraiser/associatedvaluers/Interface/InterfaceLatLongQuery.java
  com.realappraiser.associatedvaluers.Interface.InterfaceLatLongQuery
 com/realappraiser/associatedvaluers/model/LatLongDetails.java
@@ -454,6 +460,7 @@ com/realappraiser/associatedvaluers/fragments/FragmentBuilding.java
  com.realappraiser.associatedvaluers.fragments.FragmentBuilding$58
  com.realappraiser.associatedvaluers.fragments.FragmentBuilding$59
  com.realappraiser.associatedvaluers.fragments.FragmentBuilding$6
+ com.realappraiser.associatedvaluers.fragments.FragmentBuilding$60
  com.realappraiser.associatedvaluers.fragments.FragmentBuilding$7
  com.realappraiser.associatedvaluers.fragments.FragmentBuilding$8
  com.realappraiser.associatedvaluers.fragments.FragmentBuilding$9
@@ -752,6 +759,7 @@ com/realappraiser/associatedvaluers/fragments/FragmentLand.java
  com.realappraiser.associatedvaluers.fragments.FragmentLand$45
  com.realappraiser.associatedvaluers.fragments.FragmentLand$46
  com.realappraiser.associatedvaluers.fragments.FragmentLand$47
+ com.realappraiser.associatedvaluers.fragments.FragmentLand$48
  com.realappraiser.associatedvaluers.fragments.FragmentLand$5
  com.realappraiser.associatedvaluers.fragments.FragmentLand$6
  com.realappraiser.associatedvaluers.fragments.FragmentLand$7

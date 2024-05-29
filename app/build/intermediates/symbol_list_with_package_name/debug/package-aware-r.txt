@@ -2242,6 +2242,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable animation
+drawable asv_calculator
 drawable asv_logo
 drawable asv_splash_screen
 drawable avd_hide_password
@@ -3803,6 +3804,7 @@ menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap launcher_logo
+mipmap launcher_logo_
 plurals mtrl_badge_content_description
 plurals num_locations_reported
 string Floor_details

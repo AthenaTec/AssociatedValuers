@@ -21,7 +21,7 @@
             android:layout_marginLeft="20dp"
             android:padding="10dp"
             android:text="Calculator"
-            android:textColor="@color/black"
+            android:textColor="@color/colorPrimary"
             android:textSize="30sp" />
     </LinearLayout>
 

@@ -296,9 +296,13 @@ public class FragmentValuationBuilding extends Fragment implements RatePopupupIn
         caseid = SettingsUtils.getInstance().getValue(SettingsUtils.CASE_ID, "");
 
         spinner_realizable = (TextView) view.findViewById(R.id.spinner_realizable);
+        spinner_realizable.setTypeface(general.mediumtypeface());
         spinner_distress = (TextView) view.findViewById(R.id.spinner_distress);
+        spinner_distress.setTypeface(general.mediumtypeface());
         spinner_carpet = (TextView) view.findViewById(R.id.spinner_carpet);
+        spinner_carpet.setTypeface(general.mediumtypeface());
         spinner_carpet_type = (TextView) view.findViewById(R.id.spinner_carpet_type);
+        spinner_carpet_type.setTypeface(general.mediumtypeface());
 
         editText_realizable_custom = (EditText) view.findViewById(R.id.editText_realizable_custom);
         editText_distress_custom = (EditText) view.findViewById(R.id.editText_distress_custom);
@@ -887,13 +891,13 @@ public class FragmentValuationBuilding extends Fragment implements RatePopupupIn
 
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item_, compareList);
-        arrayAdapter.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, compareList);
+        arrayAdapter.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spPropertyType.setAdapter(arrayAdapter);
 
         ArrayAdapter<String> arrayAdapter_ = new ArrayAdapter<>(getActivity(),
-                R.layout.row_spinner_item_, kmList);
-        arrayAdapter_.setDropDownViewResource(R.layout.row_spinner_item_popup);
+                R.layout.spinner_drop_list_item, kmList);
+        arrayAdapter_.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spDistance.setAdapter(arrayAdapter_);
 
         tvLatLng.setText(latvalue.getText().toString() + ", " + longvalue.getText().toString());
@@ -1351,7 +1355,7 @@ public class FragmentValuationBuilding extends Fragment implements RatePopupupIn
 
 
         // spinner - Measuremnet - ConstructionDLCRateUnit
-        ArrayAdapter<Measurements> measurementsArrayAdapter_guild_cons = new ArrayAdapter<Measurements>(getActivity(), R.layout.row_spinner_item, Singleton.getInstance().measurements_list_val_sqya) {
+        ArrayAdapter<Measurements> measurementsArrayAdapter_guild_cons = new ArrayAdapter<Measurements>(getActivity(), R.layout.spinner_drop_list_item, Singleton.getInstance().measurements_list_val_sqya) {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View v = super.getView(position, convertView, parent);
                 ((TextView) v).setTypeface(general.mediumtypeface());
@@ -1364,7 +1368,7 @@ public class FragmentValuationBuilding extends Fragment implements RatePopupupIn
                 return v;
             }
         };
-        measurementsArrayAdapter_guild_cons.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        measurementsArrayAdapter_guild_cons.setDropDownViewResource(R.drawable.spinner_drop_list_item);
         spinner_ft_meter_construction.setAdapter(measurementsArrayAdapter_guild_cons);
         spinner_ft_meter_construction.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
