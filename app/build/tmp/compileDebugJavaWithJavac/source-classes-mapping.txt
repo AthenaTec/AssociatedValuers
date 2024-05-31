@@ -95,9 +95,6 @@ com/realappraiser/associatedvaluers/activities/LoginActivity.java
  com.realappraiser.associatedvaluers.activities.LoginActivity$1
  com.realappraiser.associatedvaluers.activities.LoginActivity$10
  com.realappraiser.associatedvaluers.activities.LoginActivity$11
- com.realappraiser.associatedvaluers.activities.LoginActivity$12
- com.realappraiser.associatedvaluers.activities.LoginActivity$12$1
- com.realappraiser.associatedvaluers.activities.LoginActivity$13
  com.realappraiser.associatedvaluers.activities.LoginActivity$2
  com.realappraiser.associatedvaluers.activities.LoginActivity$3
  com.realappraiser.associatedvaluers.activities.LoginActivity$4
@@ -1286,7 +1283,6 @@ com/realappraiser/associatedvaluers/activities/HomeActivity.java
  com.realappraiser.associatedvaluers.activities.HomeActivity$39
  com.realappraiser.associatedvaluers.activities.HomeActivity$39$1
  com.realappraiser.associatedvaluers.activities.HomeActivity$4
- com.realappraiser.associatedvaluers.activities.HomeActivity$40
  com.realappraiser.associatedvaluers.activities.HomeActivity$5
  com.realappraiser.associatedvaluers.activities.HomeActivity$6
  com.realappraiser.associatedvaluers.activities.HomeActivity$7

@@ -2,8 +2,8 @@
   <library name="Gradle: com.loopeer.lib:shadow:0.0.3@aar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/135c5db0e6aeed448b8b7f380854752b/jetified-shadow-0.0.3/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/135c5db0e6aeed448b8b7f380854752b/jetified-shadow-0.0.3/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/135c5db0e6aeed448b8b7f380854752b/jetified-shadow-0.0.3/res" />
+      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/135c5db0e6aeed448b8b7f380854752b/jetified-shadow-0.0.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

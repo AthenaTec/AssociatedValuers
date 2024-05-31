@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.wang.avi:library:2.1.3@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/5f412b78bd9d5f8aec505a8404a20c20/jetified-library-2.1.3/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/5f412b78bd9d5f8aec505a8404a20c20/jetified-library-2.1.3/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/5f412b78bd9d5f8aec505a8404a20c20/jetified-library-2.1.3/res" />
+      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/5f412b78bd9d5f8aec505a8404a20c20/jetified-library-2.1.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/f3ea0c1e56a7eb8b5c0f8ced5f0adde51d4b609e/library-2.1.3-javadoc.jar!/" />

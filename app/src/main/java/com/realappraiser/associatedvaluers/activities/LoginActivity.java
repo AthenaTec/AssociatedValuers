@@ -707,7 +707,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == Activity.RESULT_CANCELED) {
             general.customToast("Turn ON location to access this application", this);
-            new Handler().postDelayed(new Runnable() {
+           /* new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     if (!isGPS) {
@@ -718,7 +718,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         });
                     }
                 }
-            }, 1000);
+            }, 1000);*/
         } else if (resultCode == Activity.RESULT_OK) {
             if (requestCode == SettingsUtils.GPS_REQUEST) {
                 isGPS = true;
@@ -753,14 +753,14 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 //                    settingAndFireRemote();
 
                 } else {
-                    general.customToast("Please enable all permissions to complete access of this application", this);
+                  //  general.customToast("Please enable all permissions to complete access of this application", this);
 
-                    new Handler().postDelayed(new Runnable() {
+                    /*new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
                             general.checkPermissions();
                         }
-                    }, 500);
+                    }, 500);*/
 
                 }
 

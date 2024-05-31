@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.iceteck.silicompressorr:silicompressor:2.2.4@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/147f39bcba914735d1cd5aec3ab50935/jetified-silicompressor-2.2.4/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/147f39bcba914735d1cd5aec3ab50935/jetified-silicompressor-2.2.4/res" />
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/147f39bcba914735d1cd5aec3ab50935/jetified-silicompressor-2.2.4/jars/classes.jar!/" />
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/147f39bcba914735d1cd5aec3ab50935/jetified-silicompressor-2.2.4/jars/libs/aspectjrt-1.7.3.jar!/" />
+      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/147f39bcba914735d1cd5aec3ab50935/jetified-silicompressor-2.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/147f39bcba914735d1cd5aec3ab50935/jetified-silicompressor-2.2.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/modules-2/files-2.1/com.iceteck.silicompressorr/silicompressor/2.2.4/a80552e3c2faa67a52909b153be20eea8c092ff5/silicompressor-2.2.4-javadoc.jar!/" />

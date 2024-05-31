@@ -4,9 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/93961f36492535dc56285ee1e4a059c1/jetified-library-2.1.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/93961f36492535dc56285ee1e4a059c1/jetified-library-2.1.4/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/93961f36492535dc56285ee1e4a059c1/jetified-library-2.1.4/res" />
       <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/93961f36492535dc56285ee1e4a059c1/jetified-library-2.1.4/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/93961f36492535dc56285ee1e4a059c1/jetified-library-2.1.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/modules-2/files-2.1/com.rengwuxian.materialedittext/library/2.1.4/55b0a991e9defb3bc902d9fb97fd436554119d4e/library-2.1.4-javadoc.jar!/" />

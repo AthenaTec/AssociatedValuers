@@ -2556,14 +2556,14 @@ public class HomeActivity extends AppCompatActivity implements
                     settingAndFireRemote();
 
                 } else {
-                    general.customToast("Please enable all permissions to complete access of this application", this);
+                    /*general.customToast("Please enable all permissions to complete access of this application", this);
 
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
                             general.checkPermissions();
                         }
-                    }, 500);
+                    }, 500);*/
 
                 }
 

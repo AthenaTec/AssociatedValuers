@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.jakewharton:butterknife:10.2.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/b52bdd7a30aae59eef07d2b83bcf8bdc/jetified-butterknife-10.2.1/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/b52bdd7a30aae59eef07d2b83bcf8bdc/jetified-butterknife-10.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/b52bdd7a30aae59eef07d2b83bcf8bdc/jetified-butterknife-10.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/modules-2/files-2.1/com.jakewharton/butterknife/10.2.1/278a88aebaaffa10d31b6ab1d3bab197ef6f7c87/butterknife-10.2.1-javadoc.jar!/" />

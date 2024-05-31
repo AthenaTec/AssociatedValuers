@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.faendir.rhino:rhino-android:1.4@aar">
     <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/c95c174aaa5262f66ed2ab01e04c9cf7/jetified-rhino-android-1.4/jars/classes.jar!/" />
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/c95c174aaa5262f66ed2ab01e04c9cf7/jetified-rhino-android-1.4/jars/libs/dx.jar!/" />
       <root url="file://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/c95c174aaa5262f66ed2ab01e04c9cf7/jetified-rhino-android-1.4/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/transforms-2/files-2.1/c95c174aaa5262f66ed2ab01e04c9cf7/jetified-rhino-android-1.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../mapprealappraiser/app/caches/modules-2/files-2.1/com.faendir.rhino/rhino-android/1.4/91f5f32aaa6388e5d938a057276556c60ebe5f39/rhino-android-1.4-javadoc.jar!/" />
