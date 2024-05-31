@@ -123,12 +123,11 @@ com/realappraiser/associatedvaluers/fragments/FragmentValuationPenthouse.java
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$20
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$21
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$22
- com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$23
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$3
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$4
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$5
+ com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$5$1
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$6
- com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$6$1
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$7
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$8
  com.realappraiser.associatedvaluers.fragments.FragmentValuationPenthouse$9

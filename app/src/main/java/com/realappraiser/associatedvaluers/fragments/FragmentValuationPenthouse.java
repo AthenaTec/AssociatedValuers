@@ -312,12 +312,12 @@ public class FragmentValuationPenthouse extends Fragment implements RatePopupupI
         ratePopupApi.getRatePopup(caseid, String.valueOf(SettingsUtils.Latitudes), String.valueOf(SettingsUtils.Longitudes));
 
 
-        tvCompareRate.setOnClickListener(new View.OnClickListener() {
+       /* tvCompareRate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getDetails();
             }
-        });
+        });*/
 
 
         return view;

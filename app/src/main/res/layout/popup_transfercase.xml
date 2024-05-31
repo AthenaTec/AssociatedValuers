@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="450dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/White"
@@ -10,8 +10,8 @@
 
     <LinearLayout
         android:id="@+id/layoutCheckbox"
-        android:layout_width="450dp"
-        android:layout_height="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical">
@@ -23,6 +23,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
             android:gravity="center"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
@@ -38,7 +39,10 @@
             android:text="You want to transfer Mr.SounderRajan case to"
             android:textAlignment="center"
             android:textColor="@color/Activite"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
 
         <LinearLayout
             android:id="@+id/offlineViewCaseLayout"
@@ -107,6 +111,7 @@
         android:id="@+id/layout"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:layout_gravity="center"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -115,7 +120,6 @@
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:background="@drawable/strokeshape_bg"
-            android:gravity="center"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:text="@string/cancel_"

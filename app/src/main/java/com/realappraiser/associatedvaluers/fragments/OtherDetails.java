@@ -3789,6 +3789,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 if (Singleton.getInstance().is_new_floor_created) {
                     /* Start Inspection - Update the case ID */
                     String case_id = SettingsUtils.getInstance().getValue(SettingsUtils.CASE_ID, "");
+                    general.hideloading();
                     UpdateStatusCaseIdWebservice(case_id, getResources().getString(R.string.edit_inspection));
                 } else {
                     general.hideloading();
@@ -3820,6 +3821,7 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
     private void UpdateStatusCaseIdWebservice(String case_id, String statusId) {
 
         if (Connectivity.isConnected(mContext)) {
+            general.showloading(mContext);
             InitiateUpdateStatusCaseidTask(case_id, statusId);
         } else {
             Connectivity.showNoConnectionDialog(mContext);

@@ -374,7 +374,9 @@
                         android:layout_marginTop="@dimen/control_padding"
                         android:orientation="horizontal"
                         android:weightSum="2"
-                        tools:ignore="DisableBaselineAlignment">
+                        tools:ignore="DisableBaselineAlignment"
+                        android:visibility="gone"
+                        >
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:id="@+id/layout_name_of_occupant"

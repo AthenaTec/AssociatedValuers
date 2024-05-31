@@ -34,7 +34,9 @@
             android:padding="@dimen/_2sdp"
             android:text="@string/compare_property_rate"
             android:textColor="@color/blue_link"
-            android:textSize="@dimen/_8sdp" />
+            android:textSize="@dimen/_8sdp"
+            android:visibility="gone"
+            />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -810,7 +812,7 @@
                     android:layout_weight="2.5"
                     android:gravity="right"
                     android:inputType="text"
-                    android:paddingRight="@dimen/height_10"
+                    android:paddingRight="@dimen/height_2"
                     android:text="@string/totalconstructionvalue"
                     android:textSize="@dimen/_9sdp"
                     tools:ignore="NestedWeights,RtlHardcoded,RtlSymmetry,TextViewEdits" />

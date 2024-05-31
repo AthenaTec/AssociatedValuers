@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\mapprealappraiser\\app\\caches\\transforms-2\\files-2.1\\93d0d36dd39b97f1c6a4c5c68ed2eae1\\core-1.6.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "5845",
+                        "endColumns": "100",
+                        "endOffsets": "5941"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\mapprealappraiser\\app\\caches\\transforms-2\\files-2.1\\174d63bfb184b3e11f23fc47b6ca560b\\jetified-play-services-basement-17.2.1\\res\\values-ca\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -52,23 +69,6 @@
                         "startOffsets": "2825,2932,3116,3245,3356,3565,3694,3847,4178,4408,4519,4709,4842,5065,5253,5348,5446",
                         "endColumns": "106,183,128,110,208,128,152,136,229,110,189,132,222,187,94,97,115",
                         "endOffsets": "2927,3111,3240,3351,3560,3689,3842,3979,4403,4514,4704,4837,5060,5248,5343,5441,5557"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\mapprealappraiser\\app\\caches\\transforms-2\\files-2.1\\45c82bcad139792592d4266af7a09ff2\\core-1.2.0\\res\\values-ca\\values-ca.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "5845",
-                        "endColumns": "100",
-                        "endOffsets": "5941"
                     }
                 },
                 {

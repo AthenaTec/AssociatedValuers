@@ -2007,12 +2007,12 @@ public class ResponseParser {
 
                         /* ******Set Paving Dummy Data*******/
                         ArrayList<Paving> pavings_list = new ArrayList<>();
-                        /*Paving dummy_Paving = new Paving();
+                        Paving dummy_Paving = new Paving();
                         dummy_Paving.setPavingAroundBuildingId(0);
                         dummy_Paving.setName("Select");
                         Gson gson_dummy_Paving = new Gson();
                         gson_dummy_Paving.toJson(dummy_ApproachRoadCondition);
-                        pavings_list.add(dummy_Paving);*/
+                        pavings_list.add(dummy_Paving);
 
                         /* Json array for Paving*/
                         JSONArray paving_array = jsonObject.getJSONArray("Paving");

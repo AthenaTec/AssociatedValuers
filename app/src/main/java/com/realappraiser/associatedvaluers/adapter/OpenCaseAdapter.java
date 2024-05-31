@@ -230,10 +230,10 @@ public class OpenCaseAdapter extends RecyclerView.Adapter<OpenCaseAdapter.ViewHo
             holder.case_bank_name.setText(R.string.dot);
         }
 
-      /*  if (real_status_id.equals("12")||real_status_id.equals("13"))
+        if (real_status_id.equals("12")||real_status_id.equals("13"))
             holder.transfer_lay.setVisibility(View.VISIBLE);
         else
-            holder.transfer_lay.setVisibility(View.GONE);*/
+            holder.transfer_lay.setVisibility(View.GONE);
 
         /******Added @jan31****/
         String applicantContactNo = dataModels.get(position).getApplicantContactNo();

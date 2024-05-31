@@ -424,12 +424,12 @@
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\horizontal_imageadapter.xml"
     },
     {
-        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_fragment_fragment_valuation_land.xml.flat",
-        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\fragment_fragment_valuation_land.xml"
-    },
-    {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinnernew.png.flat",
         "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\drawable\\spinnernew.png"
+    },
+    {
+        "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_fragment_fragment_valuation_land.xml.flat",
+        "source": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\src\\main\\res\\layout-large\\fragment_fragment_valuation_land.xml"
     },
     {
         "merged": "C:\\Users\\Sabesh\\Documents\\Athena Project\\AssociatedValues\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_bg.xml.flat",

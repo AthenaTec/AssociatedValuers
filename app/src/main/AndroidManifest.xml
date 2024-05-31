@@ -39,12 +39,14 @@
         android:theme="@style/AppTheme"
         android:requestLegacyExternalStorage="true"
         tools:ignore="GoogleAppIndexingWarning"
-        tools:targetApi="m">
+        tools:targetApi="TIRAMISU">
         <activity
             android:name=".activities.SplashActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -53,7 +55,9 @@
         <activity
             android:name=".activities.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:exported="false"
+            />
         <activity
             android:name=".activities.HomeActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -91,7 +95,9 @@
 
         <receiver
             android:name=".utils.ConnectionReceiver"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="false"
+            >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />

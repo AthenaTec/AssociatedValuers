@@ -7,7 +7,7 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -49,12 +49,12 @@
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
             android:name="com.realappraiser.associatedvaluers.activities.SplashActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
@@ -66,6 +66,7 @@
         <activity
             android:name="com.realappraiser.associatedvaluers.activities.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.realappraiser.associatedvaluers.activities.HomeActivity"
@@ -105,7 +106,8 @@
 
         <receiver
             android:name="com.realappraiser.associatedvaluers.utils.ConnectionReceiver"
-            android:enabled="true" >
+            android:enabled="true"
+            android:exported="false" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
@@ -182,11 +184,13 @@
                 android:resource="@xml/provider_paths" />
         </provider>
         <provider
-            android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="com.realappraiser.associatedvaluers.workmanager-init"
-            android:directBootAware="false"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.realappraiser.associatedvaluers.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <service
             android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
@@ -269,9 +273,20 @@
                 <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
             </intent-filter>
         </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+            </intent-filter>
+        </receiver>
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
             android:exported="false" />
 
         <provider
