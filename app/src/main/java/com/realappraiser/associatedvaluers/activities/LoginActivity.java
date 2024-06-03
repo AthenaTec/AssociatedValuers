@@ -141,7 +141,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         //mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
         mFirebaseAnalytics.logEvent("Login", bundle);
         general = new General(LoginActivity.this);
-        initValues();
+        String API_BASE_URL = "https://associatedvaluers.real-appraiser.com";
+        SettingsUtils.getInstance().putValue(SettingsUtils.API_BASE_URL, API_BASE_URL);
+
+        if (General.rootAndEmulatorChecker(LoginActivity.this) == false) {
+            initValues();
+        }
 //        settingAndFireRemote();
     }
 
@@ -500,8 +505,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         if (result != null) {
             if (result.equals("1")) {
                 // general.CustomToast(msg);
-                String API_BASE_URL = addkeys.getText().toString().trim();
-                SettingsUtils.getInstance().putValue(SettingsUtils.API_BASE_URL, API_BASE_URL);
+                //String API_BASE_URL = addkeys.getText().toString().trim();
+                //SettingsUtils.getInstance().putValue(SettingsUtils.API_BASE_URL, API_BASE_URL);
                 dialog.dismiss();
             } else if (result.equals("2")) {
                 general.CustomToast(msg);

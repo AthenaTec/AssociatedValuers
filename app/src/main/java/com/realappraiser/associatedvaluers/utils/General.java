@@ -1269,6 +1269,125 @@ public class General implements OnPageChangeListener, OnLoadCompleteListener,
         return ((LocationManager) context2.getSystemService(android.content.Context.LOCATION_SERVICE)).isProviderEnabled("gps");
     }
 
+    public static boolean rootAndEmulatorChecker(Activity context) {
+        boolean status = RootUtil.isDeviceRooted() || RootUtil.isEmulator();
 
+        if (RootUtil.isDeviceRooted() && RootUtil.isEmulator())
+            exitDialog(context, "Your device is rooted and a emulator!");
+        else if (RootUtil.isDeviceRooted())
+            exitDialog(context, "Your device is rooted!");
+        else if (RootUtil.isEmulator())
+            exitDialog(context, "Your device is a emulator!");
 
+        return status;
+    }
+
+    public static void exitDialog(Activity context, String message) {
+        AlertDialog.Builder alert_build = new AlertDialog.Builder(new ContextThemeWrapper(context, R.style.AlertDialogCustom));
+        alert_build.setTitle("Warning");
+        alert_build.setMessage(message);
+        alert_build.setCancelable(false);
+        alert_build.setPositiveButton("Close", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                    /*System.runFinalizersOnExit(true);
+                    android.os.Process.killProcess(android.os.Process.myPid());*/
+                clearDataAndLogout(context);
+                System.exit(0);
+                context.finishAndRemoveTask();
+                context.finishAffinity();
+            }
+        });
+        AlertDialog alert_show = alert_build.create();
+        alert_show.show();
+    }
+
+    public static void clearDataAndLogout(Activity activity) {
+        Singleton.getInstance().longitude = 0.0;
+        Singleton.getInstance().latitude = 0.0;
+        Singleton.getInstance().aCase = new Case();
+        Singleton.getInstance().property = new Property();
+        Singleton.getInstance().indProperty = new IndProperty();
+        Singleton.getInstance().indPropertyValuation = new IndPropertyValuation();
+        Singleton.getInstance().indPropertyFloors = new ArrayList<>();
+        Singleton.getInstance().proximities = new ArrayList<>();
+        Singleton.getInstance().openCaseList.clear();
+        Singleton.getInstance().closeCaseList.clear();
+        Singleton.getInstance().GetImage_list_flat.clear();
+        SettingsUtils.getInstance().putValue(SettingsUtils.KEY_LOGGED_IN, false);
+        AppDatabase appDatabase = AppDatabase.getAppDatabase(MyApplication.getAppContext());
+        ArrayList<OfflineDataModel> oflineData = (ArrayList) appDatabase.interfaceOfflineDataModelQuery().getDataModal_offlinecase(true);
+        if (appDatabase == null) {
+            return;
+        }
+        if (oflineData.size() > 0) {
+            General.customToast("Please sync your offline documents before logout!", activity);
+            return;
+        }
+
+        // Delete - datamodel
+        appDatabase.interfaceDataModelQuery().deleteRow();
+        // Delete - offlinedatamodel
+        appDatabase.interfaceOfflineDataModelQuery().deleteRow();
+        // Delete - casemodal
+        appDatabase.interfaceCaseQuery().deleteRow();
+        // Delete - propertymodal
+        appDatabase.interfacePropertyQuery().deleteRow();
+        // Delete - indpropertymodal
+        appDatabase.interfaceIndpropertyQuery().deleteRow();
+        // Delete - IndPropertyValuationModal
+        appDatabase.interfaceIndPropertyValuationQuery().deleteRow();
+        // Delete - IndPropertyFloorModal
+        appDatabase.interfaceIndPropertyFloorsQuery().deleteRow();
+        // Delete - IndPropertyFloorsValuationModal
+        appDatabase.interfaceIndPropertyFloorsValuationQuery().deleteRow();
+        // Delete - ProximityModal
+        appDatabase.interfaceProximityQuery().deleteRow();
+        // Delete - GetPhotoModel
+        appDatabase.interfaceGetPhotoQuery().deleteRow();
+        // Delete - OflineCase
+        appDatabase.interfaceOfflineCaseQuery().deleteRow();
+        // Delete - Document_list
+        appDatabase.interfaceDocumentListQuery().deleteRow();
+        // Delete - LatLongDetails
+        appDatabase.interfaceLatLongQuery().deleteRow();
+        // Delete - typeofproperty
+        appDatabase.typeofPropertyQuery().deleteRow();
+        // Delete - casedetail
+        appDatabase.daoAccess().deleteRow();
+        // Delete - propertyupdateroomdb
+        appDatabase.propertyUpdateCategory().deleteRow();
+        // Delete - GetPhotoMeasurmentQuery
+        appDatabase.interfaceGetPhotoMeasurmentQuery().deleteRow();
+
+        if (new LocationTrackerApi(Context).shareLocation("",
+                SettingsUtils.getInstance().getValue(SettingsUtils.KEY_LOGIN_ID, ""),
+                "Logout", SettingsUtils.Latitudes, SettingsUtils.Longitudes)) {
+            if (Build.VERSION.SDK_INT < 26) {
+                Context.stopService(new Intent(Context, GeoUpdate.class));
+            } else {
+                new OreoLocation(Context).stopOreoLocationUpdates();
+            }
+            new WorkerManager(Context).stopWorker();
+
+            Intent intent = new Intent(Context, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            Context.startActivity(intent);
+            return;
+        }
+
+        if (Build.VERSION.SDK_INT < 26) {
+            Context.stopService(new Intent(Context, GeoUpdate.class));
+        } else {
+            new OreoLocation(Context).stopOreoLocationUpdates();
+        }
+        new WorkerManager(Context).stopWorker();
+        Intent intent = new Intent(Context, LoginActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        Context.startActivity(intent);
+    }
 }

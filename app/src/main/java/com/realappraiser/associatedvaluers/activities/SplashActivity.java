@@ -82,15 +82,19 @@ public class SplashActivity extends AppCompatActivity {
 
         Translucent();
 
-        mJumpRunnable = new Runnable() {
+        /*mJumpRunnable = new Runnable() {
             public void run() {
                 LoggedInAction();
             }
         };
         mHandler = new Handler();
-        mHandler.postDelayed(mJumpRunnable, SPLASH_TIME);
+        mHandler.postDelayed(mJumpRunnable, SPLASH_TIME);*/
 
-        setVersionDetails();
+        if (General.rootAndEmulatorChecker(SplashActivity.this) == false) {
+            splashRunner();
+            setVersionDetails();
+        }
+
     }
 
     private void setVersionDetails() {
@@ -261,6 +265,16 @@ public class SplashActivity extends AppCompatActivity {
             }
         }, 500);
 
+    }
+
+    private void splashRunner() {
+        mJumpRunnable = new Runnable() {
+            public void run() {
+                LoggedInAction();
+            }
+        };
+        mHandler = new Handler();
+        mHandler.postDelayed(mJumpRunnable, SPLASH_TIME);
     }
 
 }

@@ -28,7 +28,7 @@ public class Land {
             if(c.getName().equals(Name) && c.getTypeOfLandId()==TypeOfLandId ) return true;
         }
 
-        return false;
+        return true;
     }
 
     public int getTypeOfLandId() {

@@ -36,6 +36,7 @@ import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
+import static android.Manifest.permission.READ_MEDIA_IMAGES;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 /**
@@ -146,16 +147,33 @@ public class MultiPhotoSelectActivity extends AppCompatActivity {
             return true;
         }
 
-        if (checkSelfPermission(READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
-            return true;
+        if(Build.VERSION.SDK_INT < 33){
+            if (checkSelfPermission(READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                return true;
+            }
+        }else{
+            if (checkSelfPermission(READ_MEDIA_IMAGES) == PackageManager.PERMISSION_GRANTED) {
+                return true;
+            }
         }
 
-        if (shouldShowRequestPermissionRationale(READ_EXTERNAL_STORAGE)) {
-            //promptStoragePermission();
-            showPermissionRationaleSnackBar();
-        } else {
-            requestPermissions(new String[]{READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE}, REQUEST_FOR_STORAGE_PERMISSION);
+
+
+        if(Build.VERSION.SDK_INT < 33){
+            if (shouldShowRequestPermissionRationale(READ_EXTERNAL_STORAGE)) {
+                //promptStoragePermission();
+                showPermissionRationaleSnackBar();
+            } else {
+                requestPermissions(new String[]{READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE}, REQUEST_FOR_STORAGE_PERMISSION);
+            }
+        }else{
+            if (shouldShowRequestPermissionRationale(READ_MEDIA_IMAGES)) {
+                showPermissionRationaleSnackBar();
+            } else {
+                requestPermissions(new String[]{READ_MEDIA_IMAGES}, REQUEST_FOR_STORAGE_PERMISSION);
+            }
         }
+
 
         return false;
     }

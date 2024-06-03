@@ -121,7 +121,9 @@
             android:padding="2dp"
             android:textColor="@color/Black"
             android:textSize="14sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:visibility="gone"
+            />
     </LinearLayout>
 
     <Button

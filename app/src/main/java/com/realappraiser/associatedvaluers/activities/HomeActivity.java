@@ -295,6 +295,14 @@ public class HomeActivity extends AppCompatActivity implements
         /*int s = appDatabase.interfaceOfflineDataModelQuery().getDataModal_offlinecase(true).size();
         Log.e("getDataModal_offlinecase:", "getDataModal_offlinecase: " + s);*/
 
+
+        if (General.rootAndEmulatorChecker(HomeActivity.this) == false) {
+            initiateViewsAndData();
+        }
+
+    }
+
+    private void initiateViewsAndData(){
         /* Load API */
         InitialLoadOpenCase();
         InitialLoadClosedCase();

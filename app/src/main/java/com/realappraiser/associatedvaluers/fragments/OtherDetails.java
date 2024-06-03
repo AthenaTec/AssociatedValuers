@@ -2328,14 +2328,22 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
                 Singleton.getInstance().property.setTenureId(null);
             }
 
+
+
             int poslandmark = spinner_landapproval.getSelectedItemPosition();
-            if (poslandmark > 0) {
-                int landId = Singleton.getInstance().land_list.get(poslandmark).getTypeOfLandId();
-                if (landId != 0)
-                    Singleton.getInstance().property.setTypeOfLandId(landId);
-            } else {
+            int landListSize = Singleton.getInstance().land_list.size();
+            if(poslandmark < landListSize){
+                if (poslandmark > 0) {
+                    int landId = Singleton.getInstance().land_list.get(poslandmark).getTypeOfLandId();
+                    if (landId != 0)
+                        Singleton.getInstance().property.setTypeOfLandId(landId);
+                } else {
+                    Singleton.getInstance().property.setTypeOfLandId(null);
+                }
+            }else {
                 Singleton.getInstance().property.setTypeOfLandId(null);
             }
+
 
             // spinner_qualityofconstructionSelectedItemPosition
             int spinner_qualityofconstructionSelectedItemPosition = spinner_qualityofconstruction.getSelectedItemPosition();
@@ -3926,8 +3934,14 @@ public class OtherDetails extends Fragment implements View.OnClickListener, Othe
 
         Integer land_approve = Singleton.getInstance().property.getTypeOfLandId();
         // Log.e("land_approve :",land_approve+""+  "  " +new Gson().toJson(Singleton.getInstance().land_list));
-        if (!general.isEmpty(String.valueOf(land_approve)))
-            spinner_landapproval.setSelection(land_approve);
+        if (!general.isEmpty(String.valueOf(land_approve))){
+            try{
+                spinner_landapproval.setSelection(land_approve);
+            }catch (Exception e){
+                e.getMessage();
+            }
+        }
+
 
 
         /********

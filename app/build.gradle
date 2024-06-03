@@ -42,10 +42,10 @@ android {
     signingConfigs {
 
         release {
-            storeFile file("/Users/bharanidharan/Documents/office/Kaptas/Real/mapprealappraiser/app/realappraiser.jks")
-            storePassword "realappraiser"
-            keyAlias "realappraiser"
-            keyPassword "realappraiser"
+            storeFile file("/app/associatedvaluers.jks")
+            storePassword "associatedvaluers"
+            keyAlias "associatedvaluers"
+            keyPassword "associatedvaluers"
 
             // Optional, specify signing versions used
             v1SigningEnabled true
@@ -56,17 +56,18 @@ android {
         release {
             minifyEnabled true
             shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField 'String', 'DATE', '"12-Oct-2021"'
-
+            buildConfigField 'String', 'DATE', '"03-Jun-2024"'
+            signingConfig signingConfigs.release
         }
 
         debug{
 //            shrinkResources true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             // proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField 'String', 'DATE', '"12-Oct-2021"'
+            buildConfigField 'String', 'DATE', '"03-Jun-2024"'
         }
     }
     packagingOptions {
